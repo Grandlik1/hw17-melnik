@@ -1,0 +1,30 @@
+body {
+    position: relative;
+}
+
+header {
+    padding-top: 50px;
+    position: absolute;
+
+    a {
+        display: inline-block;
+    }
+
+    ul {
+        display: flex;
+        white-space: nowrap;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        .right-nav{ 
+            margin-right: auto;
+
+        }
+
+        li {
+            padding-right: 16px;
+
+        }
+    }
+}
