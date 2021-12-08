@@ -38,14 +38,14 @@ body {
   position: relative;
 }
 
-header {
-  padding-top: 50px;
-  position: absolute;
+.experience_services header {
+  padding: 60px 0 0 0;
+  margin-bottom: 64px;
 }
-header a {
+.experience_services header a {
   display: inline-block;
 }
-header ul {
+.experience_services header ul {
   display: flex;
   white-space: nowrap;
   flex-direction: row;
@@ -53,11 +53,233 @@ header ul {
   list-style: none;
   color: white;
 }
-header ul .right-nav {
-  margin-right: auto;
+.experience_services header .contact-info .language {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
 }
-header ul li {
+.experience_services header .contact-info .language .pressed {
+  background: #F0145A;
+  border-radius: 8px;
+  pointer-events: none;
+  cursor: default;
+}
+.experience_services header .contact-info .language a {
+  text-decoration: none;
+  margin-right: 2px;
+  padding: 5px 6px;
+  color: white;
+}
+.experience_services header .contact-info .language a:hover {
+  background: #F0145A;
+  border-radius: 8px;
+}
+.experience_services header .contact-info .address {
+  font-size: 16px;
+  line-height: 19px;
+}
+.experience_services header .contact-info .number {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+.experience_services header .contact-info .facebook-logo img:hover path {
+  fill: red;
+}
+.experience_services header .nav-header a {
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid none;
+}
+.experience_services header .nav-header a:hover {
+  border-bottom: 2px solid #F0145A;
+}
+.experience_services header li {
   padding-right: 16px;
+}
+
+.experience_services {
+  margin-bottom: 40px;
+}
+.experience_services .experience_services__shadow .first-shadow {
+  height: 10px;
+  background-color: #CACADB;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  border-radius: 0 0 12px 12px;
+}
+.experience_services .experience_services__shadow .second-shadow {
+  height: 10px;
+  background-color: #E7E7F2;
+  width: calc(100% - 80px);
+  margin: 0 auto;
+  border-radius: 0 0 12px 12px;
+}
+.experience_services .background {
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  padding-bottom: 22px;
+  border-radius: 0 0 12px 12px;
+}
+.experience_services .banner .banner-img {
+  margin-bottom: 80px;
+}
+.experience_services .banner .banner-img .banner-text {
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: white;
+}
+.experience_services .banner .carousel {
+  margin-bottom: 80px;
+}
+.experience_services .banner .carousel .btn:focus {
+  box-shadow: none;
+}
+.experience_services .banner .carousel .card {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  text-align: left;
+}
+.experience_services .banner .carousel .card .title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: medium;
+}
+.experience_services .banner .carousel .card .text {
+  font-size: 21px;
+  line-height: 30px;
+}
+.experience_services .banner .carousel .collapsing {
+  -webkit-transition: none;
+  transition: none;
+}
+.experience_services .banner .carousel .buttons {
+  max-width: 527px;
+}
+.experience_services .banner .carousel .buttons button {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: right;
+  color: #B3B3BA;
+  border-right: 4px solid #E6E6F0;
+  border-radius: 0;
+  margin: 0;
+  padding-right: 40px;
+}
+.experience_services .banner .carousel .buttons button:focus {
+  border-right: 4px solid #F0145A;
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience_services .banner .carousel .buttons button:hover {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience_services .banner .carousel .buttons button:active {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #ac0f41 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience_services .banner .services .title {
+  margin-bottom: 68px;
+}
+.experience_services .banner .services .title a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9090ab;
+}
+.experience_services .banner .services .title .text {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: bold;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience_services .banner .services .services__cards .services__card {
+  margin-bottom: 58px;
+}
+.experience_services .banner .services .services__cards .services__card .picture {
+  margin-bottom: 20px;
+}
+.experience_services .banner .services .services__cards .services__card .card__title {
+  color: #24A3FF;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.experience_services .banner .services .services__cards .services__card .card__text {
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.team-card-preview {
+  margin-bottom: 42px;
+}
+.team-card-preview .carousel-indicators {
+  position: relative;
+  margin-bottom: 0;
+}
+.team-card-preview .carousel-indicators button {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-right: 14px;
+  background-color: #d3edff;
+}
+.team-card-preview .carousel-indicators button:hover {
+  background-color: #7cc8ff;
+}
+.team-card-preview .carousel-indicators button:focus {
+  background-color: #24a3ff;
+}
+.team-card-preview .carousel-indicators button:active {
+  background-color: #238edb;
+}
+.team-card-preview .carousel-item .card-body {
+  padding: 40px 16px 16px 16px;
+}
+.team-card-preview .carousel-item a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.team-card-preview .carousel-item .card-title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.team-card-preview .carousel-item .card-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #B3B3BA;
+  margin-bottom: 5px;
+}
+.team-card-preview .carousel-item small {
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
 }
 
 /*# sourceMappingURL=style.css.map */

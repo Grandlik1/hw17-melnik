@@ -1,0 +1,71 @@
+.team-card-preview {
+    margin-bottom: 42px;
+
+    .carousel-indicators {
+        position: relative;
+        margin-bottom: 0;
+
+        button {
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            margin-right: 14px;
+            background-color: #d3edff;
+
+            &:hover {
+                background-color: #7cc8ff;
+
+            }
+
+            &:focus {
+                background-color: #24a3ff;
+
+            }
+
+            &:active {
+                background-color: #238edb;
+
+            }
+        }
+
+    }
+
+    .carousel-item {
+        .card-body {
+            padding: 40px 16px 16px 16px;
+        }
+
+        a {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .card-title {
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 50px;
+            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .card-text {
+            font-size: 18px;
+            line-height: 21px;
+            color: #B3B3BA;
+            margin-bottom: 5px;
+        }
+
+        small {
+            font-size: 16px;
+            line-height: 22px;
+            color: #B3B3BA;
+
+        }
+    }
+}

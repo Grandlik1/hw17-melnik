@@ -1,0 +1,179 @@
+.experience_services {
+    margin-bottom: 40px;
+
+
+    .experience_services__shadow {
+        .first-shadow {
+            height: 10px;
+            background-color: #CACADB;
+            width: calc(100% - 40px);
+            margin: 0 auto;
+            border-radius: 0 0 12px 12px;
+
+        }
+
+        .second-shadow {
+            height: 10px;
+            background-color: #E7E7F2;
+            width: calc(100% - 80px);
+            margin: 0 auto;
+            border-radius: 0 0 12px 12px;
+        }
+    }
+
+    .background {
+        background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+        padding-bottom: 22px;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .banner {
+        .banner-img {
+            margin-bottom: 80px;
+
+            .banner-text {
+                font-size: 38px;
+                line-height: 45px;
+                text-align: center;
+                color: white;
+            }
+        }
+
+        .carousel {
+            margin-bottom: 80px;
+
+            .btn:focus {
+                box-shadow: none;
+            }
+
+            .card {
+                background-color: transparent;
+                border: 0;
+                color: white;
+                text-align: left;
+
+                .title {
+                    font-size: 32px;
+                    line-height: 38px;
+                    font-weight: medium;
+
+                }
+
+                .text {
+                    font-size: 21px;
+                    line-height: 30px;
+                }
+
+            }
+
+            .collapsing {
+                -webkit-transition: none;
+                transition: none;
+            }
+
+            .buttons {
+                max-width: 527px;
+
+
+                button {
+
+
+                    font-weight: bold;
+                    font-size: 42px;
+                    line-height: 50px;
+                    text-align: right;
+                    color: #B3B3BA;
+                    border-right: 4px solid #E6E6F0;
+                    border-radius: 0;
+                    margin: 0;
+                    padding-right: 40px;
+
+                    &:focus {
+                        border-right: 4px solid #F0145A;
+                        background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        ;
+                    }
+
+                    &:hover {
+                        background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+
+                    }
+
+                    &:active {
+                        background: linear-gradient(90.13deg, #EF8080 0.84%, #ac0f41 99.96%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                }
+            }
+
+
+
+
+
+        }
+
+        .services {
+            .title {
+                margin-bottom: 68px;
+
+                a {
+
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #9090ab;
+
+
+
+                }
+
+                .text {
+                    font-size: 42px;
+                    line-height: 50px;
+                    font-weight: bold;
+                    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+
+            .services__cards {
+                .services__card {
+                    margin-bottom: 58px;
+
+                    .picture {
+                        margin-bottom: 20px;
+                    }
+
+                    .card__title {
+                        color: #24A3FF;
+                        font-size: 24px;
+                        line-height: 28px;
+                        margin-bottom: 15px;
+
+
+                    }
+
+                    .card__text {
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: white;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+        }
+
+
+    }
+}
