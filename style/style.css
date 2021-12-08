@@ -127,6 +127,10 @@ body {
 .experience_services .banner .banner-img {
   margin-bottom: 80px;
 }
+.experience_services .banner .banner-img img {
+  width: 100%;
+  max-height: 644px;
+}
 .experience_services .banner .banner-img .banner-text {
   font-size: 38px;
   line-height: 45px;
@@ -280,6 +284,80 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #B3B3BA;
+}
+
+.successful-cases {
+  padding-bottom: 30px;
+}
+.successful-cases .successful-cases__content {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.successful-cases .successful-cases__content .title {
+  padding: 20px 0 20px 20px;
+  border: 1px solid white;
+  background: #f5f5fa;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F0145A;
+  font-weight: bold;
+}
+.successful-cases .successful-cases__content .first-card {
+  padding: 0;
+}
+.successful-cases .successful-cases__content .case-card {
+  min-height: 198px;
+  vertical-align: bottom;
+  background: #f5f5fa;
+  padding: 20px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+}
+.successful-cases .successful-cases__content .case-card .card-text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  font-weight: medium;
+  margin-bottom: 20px;
+}
+.successful-cases .successful-cases__content .case-card .company {
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+}
+.successful-cases .successful-cases__content .case-card:first-child {
+  background: #f5f5fa;
+  padding: 0 0 20px 0;
+  border: 1px solid white;
+}
+.successful-cases .successful-cases__content .case-card:first-child .card-text {
+  padding-left: 20px;
+}
+.successful-cases .successful-cases__content .case-card:first-child .company {
+  padding-left: 20px;
+}
+
+.partners .title {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.partners .partners__cards .partners__card {
+  padding: 0;
+}
+.partners .partners__cards .partners__card img {
+  width: 100%;
+  max-height: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */

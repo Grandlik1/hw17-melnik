@@ -1,0 +1,77 @@
+.successful-cases {
+    padding-bottom: 30px;
+
+    .successful-cases__content {
+        border-radius: 12px;
+        overflow: hidden;
+
+        .title {
+            padding: 20px 0 20px 20px;
+            border: 1px solid white;
+            background: #f5f5fa;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #F0145A;
+            font-weight: bold;
+
+        }
+
+        .first-card {
+            padding: 0;
+        }
+
+        .case-card {
+            min-height: 198px;
+
+            vertical-align: bottom;
+            background: #f5f5fa;
+            padding: 20px;
+            border: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            text-align: left;
+
+            .card-text {
+
+                font-size: 24px;
+                line-height: 28px;
+                color: #686887;
+                font-weight: medium;
+                margin-bottom: 20px;
+
+            }
+
+            .company {
+                font-size: 18px;
+                line-height: 26px;
+                color: #B3B3BA;
+            }
+
+
+
+
+            &:first-child {
+                background: #f5f5fa;
+                padding: 0 0 20px 0;
+                border: 1px solid white;
+
+
+
+                .card-text {
+                    padding-left: 20px;
+
+
+                }
+
+                .company {
+                    padding-left: 20px;
+                }
+
+
+            }
+        }
+    }
+}
