@@ -1,0 +1,79 @@
+.about {
+    padding-bottom: 96px;
+
+    .about__content {
+        margin-bottom: 100px;
+
+        .introduction {
+            h3 {
+                font-weight: bold;
+                font-size: 42px;
+                line-height: 50px;
+                background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            p {
+                font-size: 21px;
+                line-height: 30px;
+                color: #000000;
+            }
+
+        }
+
+        .advantages {
+            border-left: 4px solid #E6E6F0;
+            padding-left: 20px;
+            margin: auto 0;
+
+            .advantage {
+                .heading {
+                    max-width: 391px;
+                    font-weight: bold;
+                    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-size: 36px;
+                    line-height: 42px;
+                }
+
+                .text {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #323264;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: 40px;
+                }
+
+            }
+
+        }
+
+    }
+
+    .team-photo {
+        margin-bottom: 80px;
+    }
+
+    .more-text {
+
+        .text {
+            font-size: 21px;
+            line-height: 30px;
+            color: #000000;
+
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 50px;
+            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

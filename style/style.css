@@ -39,14 +39,14 @@ body {
   position: relative;
 }
 
-.experience_services header {
+header {
   padding: 60px 0 0 0;
   margin-bottom: 64px;
 }
-.experience_services header a {
+header a {
   display: inline-block;
 }
-.experience_services header ul {
+header ul {
   display: flex;
   white-space: nowrap;
   flex-direction: row;
@@ -54,53 +54,123 @@ body {
   list-style: none;
   color: white;
 }
-.experience_services header .contact-info .language {
+header .contact-info .language {
   font-weight: bold;
   font-size: 12px;
   line-height: 14px;
   text-align: center;
   letter-spacing: 1px;
 }
-.experience_services header .contact-info .language .pressed {
+header .contact-info .language .pressed {
   background: #F0145A;
   border-radius: 8px;
   pointer-events: none;
   cursor: default;
 }
-.experience_services header .contact-info .language a {
+header .contact-info .language a {
   text-decoration: none;
   margin-right: 2px;
   padding: 5px 6px;
   color: white;
 }
-.experience_services header .contact-info .language a:hover {
+header .contact-info .language a:hover {
   background: #F0145A;
   border-radius: 8px;
 }
-.experience_services header .contact-info .address {
+header .contact-info .address {
   font-size: 16px;
   line-height: 19px;
 }
-.experience_services header .contact-info .number {
+header .contact-info .number {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
 }
-.experience_services header .contact-info .facebook-logo img:hover path {
+header .contact-info .facebook-logo img:hover path {
   fill: red;
 }
-.experience_services header .nav-header a {
+header .nav-header a {
   font-size: 18px;
   line-height: 21px;
   color: white;
   text-decoration: none;
   border: 2px solid none;
 }
-.experience_services header .nav-header a:hover {
+header .nav-header a:hover {
   border-bottom: 2px solid #F0145A;
 }
-.experience_services header li {
+header li {
   padding-right: 16px;
+}
+
+.header-var2 {
+  padding: 60px 0 0 0;
+  margin-bottom: 64px;
+}
+.header-var2 a {
+  display: inline-block;
+}
+.header-var2 ul {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  color: #b3b3ba;
+}
+.header-var2 .contact-info .language {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.header-var2 .contact-info .language .pressed {
+  background: #F0145A;
+  border-radius: 8px;
+  pointer-events: none;
+  cursor: default;
+  color: white;
+}
+.header-var2 .contact-info .language a {
+  text-decoration: none;
+  margin-right: 2px;
+  padding: 5px 6px;
+  color: #b3b3ba;
+}
+.header-var2 .contact-info .language a:hover {
+  background: #F0145A;
+  border-radius: 8px;
+  color: white;
+}
+.header-var2 .contact-info .address {
+  font-size: 16px;
+  line-height: 19px;
+}
+.header-var2 .contact-info .number {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header-var2 .contact-info .facebook-logo img:hover path {
+  fill: red;
+}
+.header-var2 .nav-header a {
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  text-decoration: none;
+  border: 2px solid none;
+}
+.header-var2 .nav-header a:hover {
+  border-bottom: 2px solid #F0145A;
+}
+.header-var2 li {
+  padding-right: 16px;
+}
+.header-var2 li .pressed-nav {
+  color: #F0145A;
+  border-bottom: 2px solid #F0145A;
 }
 
 .experience_services {
@@ -457,6 +527,119 @@ body {
 .posts .posts__cards .wrapper-card .card .card-body hr {
   border: 4px solid #e6e6f0;
   margin: 0 0 20px 0;
+}
+
+.about {
+  padding-bottom: 96px;
+}
+.about .about__content {
+  margin-bottom: 100px;
+}
+.about .about__content .introduction h3 {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about .about__content .introduction p {
+  font-size: 21px;
+  line-height: 30px;
+  color: #000000;
+}
+.about .about__content .advantages {
+  border-left: 4px solid #E6E6F0;
+  padding-left: 20px;
+  margin: auto 0;
+}
+.about .about__content .advantages .advantage .heading {
+  max-width: 391px;
+  font-weight: bold;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  line-height: 42px;
+}
+.about .about__content .advantages .advantage .text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #323264;
+}
+.about .about__content .advantages .advantage:not(:last-child) {
+  margin-bottom: 40px;
+}
+.about .team-photo {
+  margin-bottom: 80px;
+}
+.about .more-text .text {
+  font-size: 21px;
+  line-height: 30px;
+  color: #000000;
+}
+.about .more-text .title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.achievements {
+  background: #f5f5fa;
+  padding: 30px 0;
+}
+.achievements .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  margin-bottom: 30px;
+}
+.achievements .achievement .carousel-item {
+  background: #f5f5fa;
+}
+.achievements .achievement .carousel-item img {
+  max-width: 300px;
+}
+.achievements .achievement .carousel-item img:not(:last-child) {
+  margin-right: 40px;
+}
+
+.team .team__content .title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 auto 80px;
+}
+.team .team__cards .team__card {
+  margin-bottom: 40px;
+}
+.team .team__cards .team__card .text .info .name {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #323264;
+  margin-bottom: 5px;
+}
+.team .team__cards .team__card .text .info .position {
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+.team .team__cards .team__card .team__photo {
+  margin-bottom: 20px;
+}
+.team .team__cards .team__card .team__photo img {
+  border-radius: 12px;
 }
 
 footer {

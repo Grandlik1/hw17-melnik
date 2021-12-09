@@ -2,101 +2,181 @@ body {
     position: relative;
 }
 
-.experience_services {
-    header {
-        padding: 60px 0 0 0;
-        margin-bottom: 64px;
+header {
+    padding: 60px 0 0 0;
+    margin-bottom: 64px;
 
+    a {
+        display: inline-block;
+    }
 
+    ul {
+        display: flex;
+        white-space: nowrap;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
 
-        a {
-            display: inline-block;
-        }
+    .contact-info {
+        .language {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 1px;
 
-        ul {
-            display: flex;
-            white-space: nowrap;
-            flex-direction: row;
-            text-decoration: none;
-            list-style: none;
-            color: white;
-        }
-
-        .contact-info {
-
-
-            .language {
-                font-weight: bold;
-                font-size: 12px;
-                line-height: 14px;
-                text-align: center;
-                letter-spacing: 1px;
-
-
-
-                .pressed {
-                    background: #F0145A;
-                    border-radius: 8px;
-                    pointer-events: none;
-                    cursor: default;
-                }
-
-                a {
-                    text-decoration: none;
-                    margin-right: 2px;
-                    padding: 5px 6px;
-                    color: white;
-
-                    &:hover {
-                        background: #F0145A;
-                        border-radius: 8px;
-                    }
-
-                }
-
+            .pressed {
+                background: #F0145A;
+                border-radius: 8px;
+                pointer-events: none;
+                cursor: default;
             }
-
-            .address {
-                font-size: 16px;
-                line-height: 19px;
-            }
-
-            .number {
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 19px;
-            }
-
-            .facebook-logo {
-                img:hover path {
-                    fill: red;
-                }
-            }
-        }
-
-        .nav-header {
-
-
-
 
             a {
-                font-size: 18px;
-                line-height: 21px;
-                color: white;
                 text-decoration: none;
-                border: 2px solid none;
+                margin-right: 2px;
+                padding: 5px 6px;
+                color: white;
 
                 &:hover {
-                    border-bottom: 2px solid #F0145A;
+                    background: #F0145A;
+                    border-radius: 8px;
                 }
             }
+        }
+
+        .address {
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .number {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .facebook-logo {
+            img:hover path {
+                fill: red;
+            }
+        }
+    }
+
+    .nav-header {
+        a {
+            font-size: 18px;
+            line-height: 21px;
+            color: white;
+            text-decoration: none;
+            border: 2px solid none;
+
+            &:hover {
+                border-bottom: 2px solid #F0145A;
+            }
+        }
+    }
+
+    li {
+        padding-right: 16px;
+
+    }
+}
+
+
+// Header gray version
+.header-var2 {
+    padding: 60px 0 0 0;
+    margin-bottom: 64px;
+
+    a {
+        display: inline-block;
+    }
+
+    ul {
+        display: flex;
+        white-space: nowrap;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        color: #b3b3ba;
+    }
+
+    .contact-info {
+        .language {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 1px;
+
+            .pressed {
+                background: #F0145A;
+                border-radius: 8px;
+                pointer-events: none;
+                cursor: default;
+                color: white;
+            }
+
+            a {
+                text-decoration: none;
+                margin-right: 2px;
+                padding: 5px 6px;
+                color: #b3b3ba;
+
+                &:hover {
+                    background: #F0145A;
+                    border-radius: 8px;
+                    color: white;
+                }
+            }
+        }
+
+        .address {
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .number {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .facebook-logo {
+            img:hover path {
+                fill: red;
+            }
+        }
+    }
+
+    .nav-header {
+        a {
+            font-size: 18px;
+            line-height: 21px;
+            color: #24A3FF;
+            text-decoration: none;
+            border: 2px solid none;
+
+
+
+            &:hover {
+                border-bottom: 2px solid #F0145A;
+            }
+        }
+    }
+
+    li {
+        padding-right: 16px;
+
+        .pressed-nav {
+            color: #F0145A;
+            ;
+            border-bottom: 2px solid #F0145A;
 
         }
 
-
-        li {
-            padding-right: 16px;
-
-        }
     }
 }

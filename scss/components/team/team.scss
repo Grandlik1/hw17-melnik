@@ -1,0 +1,48 @@
+.team {
+    .team__content {
+        .title {
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 50px;
+            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0 auto 80px;
+        }
+    }
+
+    .team__cards {
+        .team__card {
+            margin-bottom: 40px;
+
+            .text {
+                .info {
+                    .name {
+                        font-size: 18px;
+                        line-height: 21px;
+                        font-weight: 500;
+                        color: #323264;
+                        margin-bottom: 5px;
+                    }
+
+                    .position {
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #B3B3BA;
+                    }
+                }
+            }
+
+            .team__photo {
+                img {
+                    border-radius: 12px;
+                }
+
+                margin-bottom: 20px;
+            }
+
+
+
+        }
+    }
+}
