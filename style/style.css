@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "TT Norms";
   src: url("./../fonts/TTNorms/TTNorms-Bold.eot");
@@ -394,13 +395,19 @@ body {
   margin-bottom: 40px;
 }
 .posts .title a {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #24A3FF;
   text-decoration: none;
+}
+.posts .title a:hover {
+  color: #51b3f8;
+}
+.posts .title a:active {
+  color: #187ac0;
 }
 .posts .title h3 {
   font-weight: bold;
@@ -409,9 +416,6 @@ body {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.posts .posts__cards .wrapper-card {
-  padding: 0 30px 0 0;
 }
 .posts .posts__cards .wrapper-card .card {
   margin: 0 0 40px 0;
@@ -453,6 +457,78 @@ body {
 .posts .posts__cards .wrapper-card .card .card-body hr {
   border: 4px solid #e6e6f0;
   margin: 0 0 20px 0;
+}
+
+footer {
+  border-top: 4px solid #E6E6F0;
+  padding: 30px 0 40px;
+  background: #f5f5fa;
+}
+footer .nav ul {
+  list-style: none;
+  padding: 0;
+}
+footer .nav ul li {
+  margin: auto 0;
+  margin-right: 10px;
+}
+footer .nav ul li span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+}
+footer .nav ul li .map {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+footer .nav ul li .map:hover {
+  color: #F0145A;
+}
+footer .nav ul li .map:active {
+  color: #b91347;
+}
+footer .nav ul li .contact {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #24A3FF;
+}
+footer .nav ul li .contact:hover {
+  color: #F0145A;
+}
+footer .nav ul li .contact:active {
+  color: #b91347;
+}
+footer .nav ul li .number {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #46466E;
+}
+footer .nav ul li a {
+  text-decoration: none;
+}
+footer .nav ul li::after {
+  margin-left: 10px;
+  color: gray;
+  content: "•";
+  font-weight: bold;
+}
+footer .nav ul li:last-child::after {
+  content: "";
+  margin-left: 0;
+}
+footer .copyright {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #B3B3BA;
 }
 
 /*# sourceMappingURL=style.css.map */
