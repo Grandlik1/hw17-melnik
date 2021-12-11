@@ -642,6 +642,80 @@ header li {
   border-radius: 12px;
 }
 
+.team-member {
+  padding-bottom: 80px;
+}
+.team-member .team-member__content .team-member__photo img {
+  border-radius: 12px;
+}
+.team-member .team-member__content .team-member__bio {
+  padding-left: 20px;
+}
+.team-member .team-member__content .team-member__bio .heading h2 {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.team-member .team-member__content .team-member__bio .heading .info {
+  padding-bottom: 20px;
+  border-bottom: 4px solid #E6E6F0;
+  margin-bottom: 40px;
+}
+.team-member .team-member__content .team-member__bio .heading .info span {
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+  margin-right: 10px;
+}
+.team-member .team-member__content .team-member__bio .heading .info span::after {
+  margin-left: 10px;
+  color: #E6E6F0;
+  content: "•";
+  font-weight: bold;
+}
+.team-member .team-member__content .team-member__bio .heading .info a {
+  font-size: 16px;
+  line-height: 19px;
+  color: #24A3FF;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.team-member .team-member__content .team-member__bio .heading .info a:hover {
+  color: #6db6eb;
+}
+.team-member .team-member__content .team-member__bio .heading .info a:active {
+  color: #1c7bbe;
+}
+.team-member .team-member__content .team-member__bio .heading .info a::after {
+  margin-left: 10px;
+  color: #E6E6F0;
+  content: "•";
+  font-weight: bold;
+}
+.team-member .team-member__content .team-member__bio .heading .info a:last-child::after {
+  content: "";
+  margin-left: 0;
+}
+.team-member .team-member__content .team-member__bio .bio p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.team-member .team-member__content .team-member__bio .bio p:not(:last-child) {
+  margin-bottom: 40px;
+}
+.team-member .team-member__content .team-member__bio .bio h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+}
+
 footer {
   border-top: 4px solid #E6E6F0;
   padding: 30px 0 40px;
