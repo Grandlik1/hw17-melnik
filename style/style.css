@@ -724,55 +724,55 @@ header li .pressed-nav {
   color: #323264;
 }
 
-.contact {
+.contact-page {
   padding-bottom: 80px;
 }
-.contact .contact__info {
+.contact-page .contact__info {
   margin-right: 150px;
 }
-.contact .contact__info .address {
+.contact-page .contact__info .address {
   margin-bottom: 40px;
   border-bottom: 4px solid #E6E6F0;
 }
-.contact .contact__info .address p {
+.contact-page .contact__info .address p {
   font-size: 21px;
   line-height: 30px;
   color: #323264;
   max-width: 200px;
   margin-bottom: 20px;
 }
-.contact .contact__info .info {
+.contact-page .contact__info .info {
   margin-bottom: 20px;
   border-bottom: 4px solid #E6E6F0;
 }
-.contact .contact__info .info p {
+.contact-page .contact__info .info p {
   font-size: 21px;
   line-height: 30px;
   color: #46466E;
 }
-.contact .contact__info .info a {
+.contact-page .contact__info .info a {
   font-size: 21px;
   line-height: 30px;
   color: #24A3FF;
   text-decoration: none;
   margin-bottom: 40px;
 }
-.contact .contact__info .info a:hover {
+.contact-page .contact__info .info a:hover {
   color: #F0145A;
 }
-.contact .contact__info .info a:active {
+.contact-page .contact__info .info a:active {
   color: #b91347;
 }
-.contact .contact__info .facebook a {
+.contact-page .contact__info .facebook a {
   text-decoration: none;
 }
-.contact .contact__info .facebook a:hover .text {
+.contact-page .contact__info .facebook a:hover .text {
   color: #F0145A;
 }
-.contact .contact__info .facebook a .facebook-logo {
+.contact-page .contact__info .facebook a .facebook-logo {
   margin-right: 10px;
 }
-.contact .contact__info .facebook a .text {
+.contact-page .contact__info .facebook a .text {
   max-width: 123px;
   margin-bottom: 0;
   font-weight: bold;
@@ -782,18 +782,18 @@ header li .pressed-nav {
   text-transform: uppercase;
   color: #24A3FF;
 }
-.contact .contact__info .facebook a .text:hover {
+.contact-page .contact__info .facebook a .text:hover {
   color: #F0145A;
 }
-.contact .contact__info .facebook a .text:active {
+.contact-page .contact__info .facebook a .text:active {
   color: #b91347;
 }
-.contact .contact_form {
+.contact-page .contact_form {
   background: #F5F5FA;
   border-radius: 12px;
   padding: 20px;
 }
-.contact .contact_form h3 {
+.contact-page .contact_form h3 {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -802,7 +802,7 @@ header li .pressed-nav {
   line-height: 38px;
   margin-bottom: 20px;
 }
-.contact .contact_form label {
+.contact-page .contact_form label {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
@@ -811,34 +811,34 @@ header li .pressed-nav {
   color: #B3B3BA;
   margin-bottom: 10px;
 }
-.contact .contact_form .text-form {
+.contact-page .contact_form .text-form {
   border-radius: 8px;
   border: 2px solid transparent;
 }
-.contact .contact_form .text-form:focus {
+.contact-page .contact_form .text-form:focus {
   box-shadow: none;
   border: 2px solid #F0145A;
 }
-.contact .contact_form .text-form::placeholder {
+.contact-page .contact_form .text-form::placeholder {
   font-size: 18px;
   line-height: 26px;
   color: #B3B3BA;
 }
-.contact .contact_form textarea {
+.contact-page .contact_form textarea {
   border-radius: 8px;
   resize: none;
   border: 2px solid transparent;
 }
-.contact .contact_form textarea:focus {
+.contact-page .contact_form textarea:focus {
   box-shadow: none;
   border: 2px solid #F0145A;
 }
-.contact .contact_form textarea::placeholder {
+.contact-page .contact_form textarea::placeholder {
   font-size: 18px;
   line-height: 26px;
   color: #B3B3BA;
 }
-.contact .contact_form .submit {
+.contact-page .contact_form .submit {
   border: none;
   border-radius: 12px;
   font-size: 14px;
@@ -849,18 +849,47 @@ header li .pressed-nav {
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
   bottom: 60px;
 }
-.contact .contact_form .submit:hover {
+.contact-page .contact_form .submit:hover {
   background: #0085FF;
   box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5);
 }
-.contact .contact_form .submit:active {
+.contact-page .contact_form .submit:active {
   background: #006CCF;
 }
 
-.content .service-info img {
+.baner_services {
+  margin-bottom: 40px;
+}
+.baner_services .baner_services__shadow .first-shadow {
+  height: 10px;
+  background-color: #CACADB;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  border-radius: 0 0 12px 12px;
+}
+.baner_services .baner_services__shadow .second-shadow {
+  height: 10px;
+  background-color: #E7E7F2;
+  width: calc(100% - 80px);
+  margin: 0 auto;
+  border-radius: 0 0 12px 12px;
+}
+.baner_services .background {
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%);
+  border-radius: 0 0 12px 12px;
+}
+.baner_services .background .background-img {
+  background-image: url(./../images/baner/Cover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.baner_services .background .content .service-info {
+  margin: 0 auto 80px;
+}
+.baner_services .background .content .service-info img {
   margin-bottom: 20px;
 }
-.content .service-info h2 {
+.baner_services .background .content .service-info h2 {
   font-weight: bold;
   font-size: 42px;
   line-height: 50px;
@@ -869,15 +898,121 @@ header li .pressed-nav {
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
-.content .service-info p {
+.baner_services .background .content .service-info p {
   font-size: 21px;
   line-height: 30px;
   color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.baner_services .background .content .service-info button {
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  padding: 16px 78px;
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  bottom: 60px;
+}
+.baner_services .background .content .service-info button:hover {
+  background: #0085FF;
+  box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5);
+}
+.baner_services .background .content .service-info button:active {
+  background: #006CCF;
+}
+.baner_services .background .content .service-more-info {
+  border-top: 4px solid #9898b2;
+  padding: 20px;
+  margin: 0 auto 80px;
+}
+.baner_services .background .content .service-more-info h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.baner_services .background .content .service-more-info .service-list li {
+  color: #F0145A;
+  margin-bottom: 20px;
+}
+.baner_services .background .content .service-more-info .service-list li span {
+  max-width: 500px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
 }
 
-.background-img {
-  background-image: url(./../images/baner/Cover.png);
-  background-size: cover;
+.contact-pop-up .modal-content {
+  background-color: #F5F5FA;
+}
+.contact-pop-up .modal-content .modal-body h3 {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+.contact-pop-up .modal-content .modal-body .btn-close {
+  color: #ec6f5d;
+}
+.contact-pop-up .modal-content .modal-body label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  margin-bottom: 10px;
+}
+.contact-pop-up .modal-content .modal-body .text-form {
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+.contact-pop-up .modal-content .modal-body .text-form:focus {
+  box-shadow: none;
+  border: 2px solid #F0145A;
+}
+.contact-pop-up .modal-content .modal-body .text-form::placeholder {
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+}
+.contact-pop-up .modal-content .modal-body textarea {
+  border-radius: 8px;
+  resize: none;
+  border: 2px solid transparent;
+}
+.contact-pop-up .modal-content .modal-body textarea:focus {
+  box-shadow: none;
+  border: 2px solid #F0145A;
+}
+.contact-pop-up .modal-content .modal-body textarea::placeholder {
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+}
+.contact-pop-up .modal-content .modal-body .submit {
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  padding: 16px 78px;
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  bottom: 60px;
+}
+.contact-pop-up .modal-content .modal-body .submit:hover {
+  background: #0085FF;
+  box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5);
+}
+.contact-pop-up .modal-content .modal-body .submit:active {
+  background: #006CCF;
 }
 
 footer {
@@ -890,7 +1025,6 @@ footer .nav ul {
   padding: 0;
 }
 footer .nav ul li {
-  margin: auto 0;
   margin-right: 10px;
 }
 footer .nav ul li span {

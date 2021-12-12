@@ -1,4 +1,4 @@
-.contact {
+.contact-page {
     padding-bottom: 80px;
 
     .contact__info {
@@ -96,6 +96,10 @@
 
 
     .contact_form {
+        background: #F5F5FA;
+        border-radius: 12px;
+        padding: 20px;
+
         h3 {
             background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
             -webkit-background-clip: text;
@@ -173,9 +177,7 @@
             }
         }
 
-        background: #F5F5FA;
-        border-radius: 12px;
-        padding: 20px;
+
     }
 
 }

@@ -1,0 +1,91 @@
+.contact-pop-up {
+    .modal-content {
+        background-color: #F5F5FA;
+        ;
+
+        .modal-body {
+            h3 {
+                background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 38px;
+                margin-bottom: 20px;
+            }
+
+            .btn-close {
+                color: #ec6f5d;
+            }
+
+            label {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #B3B3BA;
+                margin-bottom: 10px;
+            }
+
+            .text-form {
+                border-radius: 8px;
+                border: 2px solid transparent;
+
+                &:focus {
+                    box-shadow: none;
+                    border: 2px solid #F0145A;
+                }
+
+
+                &::placeholder {
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #B3B3BA;
+
+                }
+            }
+
+            textarea {
+                border-radius: 8px;
+                resize: none;
+                border: 2px solid transparent;
+
+                &:focus {
+                    box-shadow: none;
+                    border: 2px solid #F0145A;
+                }
+
+                &::placeholder {
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #B3B3BA;
+
+                }
+            }
+
+            .submit {
+                border: none;
+                border-radius: 12px;
+                font-size: 14px;
+                line-height: 17px;
+                color: white;
+                padding: 16px 78px;
+                background: #24A3FF;
+                box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+                bottom: 60px;
+
+                &:hover {
+                    background: #0085FF;
+                    box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5)
+                }
+
+                &:active {
+                    background: #006CCF;
+                }
+            }
+        }
+
+    }
+
+}
