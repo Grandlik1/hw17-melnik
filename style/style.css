@@ -35,6 +35,10 @@ body {
   font-family: "TT Norms", sans-serif;
 }
 
+a {
+  display: inline-block;
+}
+
 body {
   position: relative;
 }
@@ -101,6 +105,10 @@ header .nav-header a:hover {
 }
 header li {
   padding-right: 16px;
+}
+header li .pressed-nav {
+  color: #F0145A;
+  border-bottom: 2px solid #F0145A;
 }
 
 .header-var2 {
@@ -714,6 +722,162 @@ header li {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #323264;
+}
+
+.contact {
+  padding-bottom: 80px;
+}
+.contact .contact__info {
+  margin-right: 150px;
+}
+.contact .contact__info .address {
+  margin-bottom: 40px;
+  border-bottom: 4px solid #E6E6F0;
+}
+.contact .contact__info .address p {
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.contact .contact__info .info {
+  margin-bottom: 20px;
+  border-bottom: 4px solid #E6E6F0;
+}
+.contact .contact__info .info p {
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466E;
+}
+.contact .contact__info .info a {
+  font-size: 21px;
+  line-height: 30px;
+  color: #24A3FF;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+.contact .contact__info .info a:hover {
+  color: #F0145A;
+}
+.contact .contact__info .info a:active {
+  color: #b91347;
+}
+.contact .contact__info .facebook a {
+  text-decoration: none;
+}
+.contact .contact__info .facebook a:hover .text {
+  color: #F0145A;
+}
+.contact .contact__info .facebook a .facebook-logo {
+  margin-right: 10px;
+}
+.contact .contact__info .facebook a .text {
+  max-width: 123px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+.contact .contact__info .facebook a .text:hover {
+  color: #F0145A;
+}
+.contact .contact__info .facebook a .text:active {
+  color: #b91347;
+}
+.contact .contact_form {
+  background: #F5F5FA;
+  border-radius: 12px;
+  padding: 20px;
+}
+.contact .contact_form h3 {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+.contact .contact_form label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  margin-bottom: 10px;
+}
+.contact .contact_form .text-form {
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+.contact .contact_form .text-form:focus {
+  box-shadow: none;
+  border: 2px solid #F0145A;
+}
+.contact .contact_form .text-form::placeholder {
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+}
+.contact .contact_form textarea {
+  border-radius: 8px;
+  resize: none;
+  border: 2px solid transparent;
+}
+.contact .contact_form textarea:focus {
+  box-shadow: none;
+  border: 2px solid #F0145A;
+}
+.contact .contact_form textarea::placeholder {
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+}
+.contact .contact_form .submit {
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  padding: 16px 78px;
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  bottom: 60px;
+}
+.contact .contact_form .submit:hover {
+  background: #0085FF;
+  box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5);
+}
+.contact .contact_form .submit:active {
+  background: #006CCF;
+}
+
+.content .service-info img {
+  margin-bottom: 20px;
+}
+.content .service-info h2 {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.content .service-info p {
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.background-img {
+  background-image: url(./../images/baner/Cover.png);
+  background-size: cover;
 }
 
 footer {

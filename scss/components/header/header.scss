@@ -66,6 +66,8 @@ header {
     }
 
     .nav-header {
+
+
         a {
             font-size: 18px;
             line-height: 21px;
@@ -76,11 +78,21 @@ header {
             &:hover {
                 border-bottom: 2px solid #F0145A;
             }
+
+
+
+
         }
     }
 
     li {
         padding-right: 16px;
+
+        .pressed-nav {
+            color: #F0145A;
+            border-bottom: 2px solid #F0145A;
+
+        }
 
     }
 }
@@ -173,7 +185,7 @@ header {
 
         .pressed-nav {
             color: #F0145A;
-            ;
+
             border-bottom: 2px solid #F0145A;
 
         }
