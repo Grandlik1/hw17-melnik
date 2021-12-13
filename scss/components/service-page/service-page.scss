@@ -31,52 +31,26 @@
         }
 
         .content {
-
             .service-info {
                 margin: 0 auto 80px;
-
                 img {
                     margin-bottom: 20px;
                 }
-
                 h2 {
-                    font-weight: bold;
-                    font-size: 42px;
-                    line-height: 50px;
-                    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+                    @extend %hero;
+                    @extend %text-gradient;
                     margin-bottom: 20px;
                 }
 
                 p {
-                    font-size: 21px;
-                    line-height: 30px;
-                    color: #FFFFFF;
+                    @extend %introduction;
+                    color: $white;
                     margin-bottom: 40px;
 
                 }
 
                 button {
-                    border: none;
-                    border-radius: 12px;
-                    font-size: 14px;
-                    line-height: 17px;
-                    color: white;
-                    padding: 16px 78px;
-                    background: #24A3FF;
-                    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-                    bottom: 60px;
-
-                    &:hover {
-                        background: #0085FF;
-                        box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5)
-                    }
-
-                    &:active {
-                        background: #006CCF;
-                    }
-
+                    @extend %button;
                 }
             }
 
@@ -86,25 +60,22 @@
                 margin: 0 auto 80px;
 
                 h3 {
-                    font-weight: 500;
-                    font-size: 24px;
-                    line-height: 28px;
-                    color: #FFFFFF;
+                    @extend %h3;
+                    color: $white;
                     margin-bottom: 20px;
                 }
 
                 .service-list {
 
                     li {
-                        color: #F0145A;
+                        color: $accent;
                         margin-bottom: 20px;
 
                         span {
-
                             max-width: 500px;
                             font-size: 18px;
                             line-height: 26px;
-                            color: #FFFFFF;
+                            color: $white;
                         }
                     }
                 }

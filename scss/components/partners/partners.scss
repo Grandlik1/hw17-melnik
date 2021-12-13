@@ -1,28 +1,17 @@
 .partners {
     .title {
-        font-size: 14px;
-        line-height: 17px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: #323264;
-        font-weight: bold;
+        @extend %h3-caps;
+        color: $main-regular;
         margin-bottom: 30px;
         text-align: center;
     }
-
     .partners__cards {
-
-
         .partners__card {
             padding: 0;
-
             img {
                 width: 100%;
                 max-height: 120px;
             }
-
-
         }
     }
-
 }

@@ -1,0 +1,106 @@
+.publication {
+    .publication_content {
+        max-width: 909px;
+        margin: 0 auto;
+
+        .heading {
+            margin-bottom: 40px;
+
+            img {
+                margin-bottom: 40px;
+                padding: 0;
+            }
+
+            .text {
+                padding: 0 20px;
+                border-bottom: 4px solid #EDEDF7;
+                h2 {
+                    @extend %h2;
+                    color: $main-regular;
+                    margin-bottom: 10px
+                }
+
+                p {
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: $grey-text;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        .post {
+            padding-bottom: 60px;
+
+            p {
+                @extend %paragraph;
+                color: #000000;
+            }
+
+            h2 {
+                @extend %hero;
+                @extend %text-gradient;
+                margin-bottom: 40px;
+            }
+
+            h3 {
+                @extend %h3;
+                color: $main-alt;
+                margin-bottom: 20px;
+            }
+
+            ol {
+                padding: 0 20px;
+
+                li {
+                    color: $accent;
+                    font-size: 18px;
+                    line-height: 26px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+
+                    span {
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: $black;
+                        font-weight: normal;
+                    }
+                }
+            }
+
+            .results {
+                p {
+                    margin-bottom: 40px;
+                }
+
+                .advertisement {
+                    margin: 0 auto 40px;
+
+                    img {
+                        margin-bottom: 15px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        line-height: 22px;
+                        text-align: center;
+                        color: #B3B3BA;
+                    }
+                }
+            }
+            .solution {
+                margin-bottom: 20px;
+                padding-bottom: 40px;
+                border-bottom: 4px solid #E6E6F0;
+            }
+            .share {
+                a {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

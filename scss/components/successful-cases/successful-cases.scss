@@ -7,15 +7,10 @@
 
         .title {
             padding: 20px 0 20px 20px;
+            background: $grey-bg;
             border: 1px solid white;
-            background: #f5f5fa;
-            font-size: 14px;
-            line-height: 17px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            color: #F0145A;
-            font-weight: bold;
-
+            @extend %h3-caps;
+            color: $accent;
         }
 
         .first-card {
@@ -24,9 +19,8 @@
 
         .case-card {
             min-height: 198px;
-
             vertical-align: bottom;
-            background: #f5f5fa;
+            background: $grey-bg;
             padding: 20px;
             border: 1px solid white;
             display: flex;
@@ -35,42 +29,26 @@
             text-align: left;
 
             .card-text {
-
-                font-size: 24px;
-                line-height: 28px;
-                color: #686887;
-                font-weight: medium;
+                @extend %h3;
                 margin-bottom: 20px;
-
+                color: $main-soft;
             }
 
             .company {
-                font-size: 18px;
-                line-height: 26px;
-                color: #B3B3BA;
+                @extend %paragraph;
+                color: $grey-text;
             }
 
-
-
-
             &:first-child {
-                background: #f5f5fa;
+                background: $grey-bg;;
                 padding: 0 0 20px 0;
                 border: 1px solid white;
-
-
-
                 .card-text {
                     padding-left: 20px;
-
-
                 }
-
                 .company {
                     padding-left: 20px;
                 }
-
-
             }
         }
     }

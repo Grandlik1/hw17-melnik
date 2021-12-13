@@ -66,8 +66,6 @@ header {
     }
 
     .nav-header {
-
-
         a {
             font-size: 18px;
             line-height: 21px;
@@ -78,10 +76,6 @@ header {
             &:hover {
                 border-bottom: 2px solid #F0145A;
             }
-
-
-
-
         }
     }
 
@@ -91,9 +85,8 @@ header {
         .pressed-nav {
             color: #F0145A;
             border-bottom: 2px solid #F0145A;
-
+            pointer-events: none;
         }
-
     }
 }
 
@@ -130,6 +123,7 @@ header {
                 pointer-events: none;
                 cursor: default;
                 color: white;
+                pointer-events: none;
             }
 
             a {
@@ -171,9 +165,6 @@ header {
             color: #24A3FF;
             text-decoration: none;
             border: 2px solid none;
-
-
-
             &:hover {
                 border-bottom: 2px solid #F0145A;
             }
@@ -185,7 +176,7 @@ header {
 
         .pressed-nav {
             color: #F0145A;
-
+            pointer-events: none;
             border-bottom: 2px solid #F0145A;
 
         }

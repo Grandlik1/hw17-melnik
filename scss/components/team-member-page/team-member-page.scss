@@ -2,24 +2,16 @@
     padding-bottom: 80px;
     .team-member__content {
         .team-member__photo {
-
             img {
                 border-radius: 12px;
             }
-
         }
-
         .team-member__bio {
             padding-left: 20px;
             .heading {
                 h2 {
-                    font-weight: bold;
-                    font-size: 42px;
-                    line-height: 50px;
-                    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-
+                    @extend %hero;
+                    @extend %text-gradient;
                 }
 
                 .info {
@@ -28,36 +20,31 @@
                     margin-bottom: 40px;
 
                     span {
-                        font-size: 16px;
-                        line-height: 22px;
-                        color: #B3B3BA;
+                        @extend %paragraph-min;
+                        color: $grey-text;
                         margin-right: 10px;
 
                         &::after {
                             margin-left: 10px;
-                            color: #E6E6F0;;
+                            color: $grey-separator;
                             content: "\2022";
                             font-weight: bold;
-
-
                         }
                     }
-
-
-
+                   
                     a {
                         font-size: 16px;
                         line-height: 19px;
-                        color: #24A3FF;
+                        color: $active-regular;
                         text-decoration: none;
                         margin-right: 10px;
 
                         &:hover {
-                            color: #6db6eb;
+                            color: $active-hover;
                         }
 
                         &:active {
-                            color: #1c7bbe;
+                            color: $active-active;
                         }
 
                         &::after {
@@ -65,7 +52,6 @@
                             color: #E6E6F0;;
                             content: "\2022";
                             font-weight: bold;
-
 
                         }
 
@@ -73,33 +59,23 @@
                             &::after {
                                 content: "";
                                 margin-left: 0;
-
                             }
                         }
                     }
-
                 }
             }
-
             .bio {
                 p {
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #000000;
-
+                    @extend %paragraph;
+                    color: $black;
                     &:not(:last-child) {
                         margin-bottom: 40px;
                     }
-
                 }
 
                 h3 {
-                    font-weight: bold;
-                    font-size: 14px;
-                    line-height: 17px;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
-                    color: #323264;
+                    @extend %h3-caps;
+                    color: $main-regular;
 
                 }
             }

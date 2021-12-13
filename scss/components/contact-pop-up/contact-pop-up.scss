@@ -1,16 +1,10 @@
 .contact-pop-up {
     .modal-content {
         background-color: #F5F5FA;
-        ;
-
         .modal-body {
             h3 {
-                background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-weight: bold;
-                font-size: 32px;
-                line-height: 38px;
+                @extend %text-gradient;
+                @extend %hero-mobile;
                 margin-bottom: 20px;
             }
 
@@ -19,12 +13,8 @@
             }
 
             label {
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 17px;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                color: #B3B3BA;
+                @extend %h3-caps;
+                color: $grey-text;
                 margin-bottom: 10px;
             }
 
@@ -39,10 +29,8 @@
 
 
                 &::placeholder {
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #B3B3BA;
-
+                    @extend %paragraph;
+                    color: $grey-text;
                 }
             }
 
@@ -57,32 +45,14 @@
                 }
 
                 &::placeholder {
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #B3B3BA;
+                    @extend %paragraph;
+                    color: $grey-text;
 
                 }
             }
 
             .submit {
-                border: none;
-                border-radius: 12px;
-                font-size: 14px;
-                line-height: 17px;
-                color: white;
-                padding: 16px 78px;
-                background: #24A3FF;
-                box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-                bottom: 60px;
-
-                &:hover {
-                    background: #0085FF;
-                    box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5)
-                }
-
-                &:active {
-                    background: #006CCF;
-                }
+                @extend %button;
             }
         }
 

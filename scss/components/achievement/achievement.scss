@@ -1,34 +1,22 @@
 .achievements {
-    background: #f5f5fa;
+    background: $grey-bg;
     padding: 30px 0;
 
     .title {
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
-        text-align: center;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: #323264;
+        @extend %h3-caps;
+        color: $main-regular;
         margin-bottom: 30px;
-
     }
-
     .achievement {
         .carousel-item {
-            background: #f5f5fa;
-
+            background: $grey-bg;
             img {
                 max-width: 300px;
-
                 &:not(:last-child) {
                     margin-right: 40px;
-
                 }
 
             }
         }
-        
-
     }
 }
