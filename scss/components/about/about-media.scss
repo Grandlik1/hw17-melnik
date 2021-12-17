@@ -1,0 +1,15 @@
+@media (max-width:$xl) {}
+
+@media (max-width:$lg) {}
+
+@media (max-width:$md) {
+    .about {
+        .advantages {
+            border-left: none !important;
+            border-top: 4px solid #E6E6F0;
+            padding-top: 15px;
+        }
+    }
+}
+
+@media (max-width:$sm) {}

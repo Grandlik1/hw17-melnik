@@ -1,20 +1,25 @@
 .team-card-preview {
     margin-bottom: 42px;
+
     .carousel-indicators {
         position: relative;
         margin-bottom: 0;
+
         button {
             border-radius: 50%;
             width: 16px;
             height: 16px;
             margin-right: 14px;
             background-color: #d3edff;
+
             &:hover {
                 background-color: #7cc8ff;
             }
+
             &:focus {
                 background-color: #24a3ff;
             }
+
             &:active {
                 background-color: #238edb;
             }
@@ -47,6 +52,81 @@
             @extend %paragraph-min;
             color: $grey-text;
 
+        }
+    }
+}
+
+.team-card-preview-mobile {
+    margin-bottom: 42px;
+    display: none;
+    .carousel-indicators {
+        position: relative;
+        margin-bottom: 0;
+
+        button {
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            margin-right: 14px;
+            background-color: #d3edff;
+
+            &:hover {
+                background-color: #7cc8ff;
+            }
+
+            &:focus {
+                background-color: #24a3ff;
+            }
+
+            &:active {
+                background-color: #238edb;
+            }
+        }
+    }
+
+    .carousel-item {
+        .card-body {
+            padding: 40px 0 16px 16px;
+        }
+
+        a {
+            @extend %h3-caps;
+            text-decoration: none;
+        }
+
+        .card-title {
+            font-size: 32px;
+            line-height: 38px;
+            font-weight: bold;
+            @extend %text-gradient;
+            margin-bottom: 20px;
+        }
+
+        .card-text {
+            @extend %h4;
+            color: $grey-text;
+            margin-bottom: 5px;
+        }
+
+        small {
+            @extend %paragraph-min;
+            color: $grey-text;
+
+        }
+
+        .user-card {
+            .user-photo {
+                margin-right: 10px;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                    border: 1px solid grey;
+                }
+            }
         }
     }
 }

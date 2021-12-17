@@ -11,6 +11,7 @@ header {
     }
 
     ul {
+        padding: 0;
         display: flex;
         white-space: nowrap;
         flex-direction: row;
@@ -80,7 +81,10 @@ header {
     }
 
     li {
-        padding-right: 16px;
+        &:not(:last-child) {
+            padding-right: 16px;
+        }
+
 
         .pressed-nav {
             color: #F0145A;
@@ -165,6 +169,7 @@ header {
             color: #24A3FF;
             text-decoration: none;
             border: 2px solid none;
+
             &:hover {
                 border-bottom: 2px solid #F0145A;
             }
@@ -182,4 +187,150 @@ header {
         }
 
     }
+}
+
+// Tablet-small-header
+
+.header-tablet-small-var2 {
+    display: none;
+    padding: 60px 0 0 0;
+    margin-bottom: 64px;
+
+    .logo {
+        margin-bottom: 15px
+    }
+
+    a {
+        display: inline-block;
+    }
+
+    ul {
+        display: flex;
+        white-space: nowrap;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        color: #b3b3ba;
+    }
+
+    .contact-info {
+        padding-left: 22px;
+        margin-bottom: 15px;
+
+        .language {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 1px;
+
+            .pressed {
+                background: #F0145A;
+                border-radius: 8px;
+                pointer-events: none;
+                cursor: default;
+                color: white;
+                pointer-events: none;
+            }
+
+            a {
+                text-decoration: none;
+                margin-right: 2px;
+                padding: 5px 6px;
+                color: #b3b3ba;
+
+                &:hover {
+                    background: #F0145A;
+                    border-radius: 8px;
+                    color: white;
+                }
+            }
+        }
+
+        .address {
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .number {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .facebook-logo {
+            img:hover path {
+                fill: red;
+            }
+        }
+    }
+
+    .nav-header {
+
+        a {
+            font-size: 18px;
+            line-height: 21px;
+            color: #24A3FF;
+            text-decoration: none;
+            border: 2px solid none;
+
+            &:hover {
+                border-bottom: 2px solid #F0145A;
+            }
+        }
+    }
+
+    li {
+        padding-right: 16px;
+
+        .pressed-nav {
+            color: #F0145A;
+            pointer-events: none;
+            border-bottom: 2px solid #F0145A;
+
+        }
+
+    }
+}
+.header-tablet-small{
+    display: none;
+    .logo{
+        button{ display: none;}
+    }
+}
+
+
+.offcanvas-header-mobile {
+    .offcanvas-header {
+        display: flex;
+        justify-content: flex-end;
+
+        .btn-close {
+            background: url(./../images/header/Close.svg);
+        }
+    }
+
+    .offcanvas-body {
+        text-align: center;
+
+        a {
+            background: $grey-bg;
+            border-radius: 12px;
+            padding: 8px 0;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #24A3FF;
+            text-decoration: none;
+            &:hover {
+                color: $accent;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+
 }

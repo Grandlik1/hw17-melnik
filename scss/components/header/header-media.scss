@@ -1,0 +1,155 @@
+@media (max-width:20000px) {
+    .header-tablet-small-var2 {
+        .logo {
+            button {
+                display: none;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width:$xl) {
+    .header-tablet-small-var2 {
+        .logo {
+            button {
+                display: none;
+            }
+        }
+    }
+
+    .header-tablet-small {
+        .logo {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width:$lg) {
+    .header-tablet-small-var2 {
+
+        .contact-info {}
+
+        .logo {
+            button {
+                display: none;
+            }
+        }
+    }
+
+    .header-var2 {
+        position: relative;
+        .container {
+            max-width: 100%;
+            padding: 0 20px;
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .contact-info {
+            top: 30px;
+            position: absolute;
+        }
+        .right-nav{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            .nav-header{
+                li{
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$md) {
+    .header-var2 {
+        display: none;
+    }
+
+    .header-tablet-small-var2 {
+        display: block;
+
+        .logo {
+            button {
+                display: none;
+            }
+        }
+    }
+
+    .header-main-page {
+        display: none;
+    }
+
+    .header-tablet-small {
+        display: block;
+    }
+
+}
+
+@media (max-width:$sm) {
+    .header-tablet-small-var2 {
+        .contact-info {
+            padding: 0 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .address {
+                display: none;
+            }
+
+            .facebook-logo {
+                display: none;
+            }
+
+            .number {
+                padding-right: 0;
+            }
+        }
+
+        .logo {
+            a {
+                width: 224px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .humburger {
+                display: inline-block;
+            }
+        }
+
+        .nav-header {
+            display: none;
+        }
+    }
+
+    .header-tablet-small {
+        .logo {
+            button {
+                display: inline-block;
+            }
+        }
+
+        .contact-info {
+
+            .address {
+                display: none;
+            }
+
+            .facebook-logo {
+                display: none;
+            }
+        }
+
+        .nav-header {
+            display: none;
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+@media (max-width:$xl) {}
+
+@media (max-width:$lg) {}
+
+@media (max-width:$md) {}
+
+@media (max-width:$sm) {
+    .posts {
+        .container{
+            padding: 40px 5px 0;
+        }
+        .posts__cards {
+            .wrapper-card {
+                .card {
+                    .card-body {
+                        .post__text {
+                            display: none;
+                        }
+
+                        hr {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

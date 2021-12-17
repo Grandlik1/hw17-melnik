@@ -9,7 +9,7 @@
     }
 
     .container {
-        padding: 40px 0 0 0;
+        padding: 40px 0 0 0 ;
     }
 
     .view-more button {
@@ -59,7 +59,9 @@
     }
 
     .posts__cards {
+        margin: 0 auto;
         .wrapper-card {
+            padding: 0 5px;
             .card {
                 margin: 0 0 40px 0;
                 border-radius: 8px;

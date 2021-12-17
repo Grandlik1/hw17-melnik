@@ -1,0 +1,36 @@
+@media (max-width:$xl) {}
+
+@media (max-width:$lg) {}
+
+@media (max-width:$md) {
+    footer {
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .copyright {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:$sm) {
+    footer {
+        .nav {
+            ul {
+                li {
+                    &::after {
+                       display: none;
+                    }
+                }
+            }
+        }
+    }
+}

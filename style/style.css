@@ -31,7 +31,7 @@
   font-style: normal;
   font-display: swap;
 }
-.publication .publication_content .post h2, .baner_services .background .content .service-info h2, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .introduction h3, .posts .title h3, .team-card-preview .carousel-item .card-title, .experience_services .banner .services .title .text, .experience_services .banner .carousel .buttons button {
+.publication .publication_content .post h2, .baner_services .background .content .service-info h2, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .introduction h3, .posts .title h3, .team-card-preview .carousel-item .card-title, .experience_services .banner .services .title .text, .experience_services .banner .experience .buttons button {
   font-weight: bold;
   font-size: 42px;
   line-height: 50px;
@@ -43,10 +43,16 @@
   line-height: 38px;
 }
 
-.publication .publication_content .heading .text h2, .experience_services .banner .carousel .card .title {
+.publication .publication_content .heading .text h2, .experience_services .banner .experience .card .title {
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
+}
+
+.experience_services .experience-mobile h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .publication .publication_content .post h3, .baner_services .background .content .service-more-info h3, .successful-cases .successful-cases__content .case-card .card-text, .experience_services .banner .services .services__cards .services__card .card__title {
@@ -55,7 +61,7 @@
   line-height: 28px;
 }
 
-.contact-pop-up .modal-content .modal-body label, .contact-page .contact_form label, .team-member .team-member__content .team-member__bio .bio h3, .achievements .title, .posts .title a, .partners .title, .successful-cases .successful-cases__content .title, .team-card-preview .carousel-item a, .experience_services .banner .services .title a {
+.contact-pop-up .modal-content .modal-body label, .contact-page .contact_form label, .team-member .team-member__content .team-member__bio .bio h3, .achievements .title, .posts .title a, .partners .title, .successful-cases .successful-cases__content .title, .team-card-preview-mobile .carousel-item a, .team-card-preview .carousel-item a, .experience_services .experience-mobile h4, .experience_services .banner .services .title a {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
@@ -63,7 +69,7 @@
   text-transform: uppercase;
 }
 
-.team .team__cards .team__card .text .info .name, .posts .posts__cards .wrapper-card .card .card-body .post__title, .team-card-preview .carousel-item .card-text {
+.team .team__cards .team__card .text .info .name, .posts .posts__cards .wrapper-card .card .card-body .post__title, .team-card-preview-mobile .carousel-item .card-text, .team-card-preview .carousel-item .card-text {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -75,19 +81,19 @@
   line-height: 26px;
 }
 
-.team-member .team-member__content .team-member__bio .heading .info span, .team .team__cards .team__card .text .info .position, .posts .posts__cards .wrapper-card .card .card-body .post__text, .team-card-preview .carousel-item small {
+.team-member .team-member__content .team-member__bio .heading .info span, .team .team__cards .team__card .text .info .position, .posts .posts__cards .wrapper-card .card .card-body .post__text, .team-card-preview-mobile .carousel-item small, .team-card-preview .carousel-item small {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
 }
 
-.baner_services .background .content .service-info p, .about .more-text .text, .about .about__content .introduction p, .experience_services .banner .carousel .card .text {
+.baner_services .background .content .service-info p, .about .more-text .text, .about .about__content .introduction p, .experience_services .banner .experience .card .text {
   font-weight: normal;
   font-size: 21px;
   line-height: 30px;
 }
 
-.publication .publication_content .post h2, .contact-pop-up .modal-content .modal-body h3, .baner_services .background .content .service-info h2, .contact-page .contact_form h3, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .advantages .advantage .heading, .about .about__content .introduction h3, .posts .title h3, .team-card-preview .carousel-item .card-title, .experience_services .banner .services .title .text, .experience_services .banner .carousel .buttons button:active, .experience_services .banner .carousel .buttons button:hover, .experience_services .banner .carousel .buttons button:focus {
+.publication .publication_content .post h2, .contact-pop-up .modal-content .modal-body h3, .baner_services .background .content .service-info h2, .contact-page .contact_form h3, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .advantages .advantage .heading, .about .about__content .introduction h3, .posts .title h3, .team-card-preview-mobile .carousel-item .card-title, .team-card-preview .carousel-item .card-title, .experience_services .experience-mobile h4, .experience_services .banner .services .title .text, .experience_services .banner .experience .buttons button:active, .experience_services .banner .experience .buttons button:hover, .experience_services .banner .experience .buttons button:focus {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -131,6 +137,7 @@ header a {
   display: inline-block;
 }
 header ul {
+  padding: 0;
   display: flex;
   white-space: nowrap;
   flex-direction: row;
@@ -183,7 +190,7 @@ header .nav-header a {
 header .nav-header a:hover {
   border-bottom: 2px solid #F0145A;
 }
-header li {
+header li:not(:last-child) {
   padding-right: 16px;
 }
 header li .pressed-nav {
@@ -264,6 +271,225 @@ header li .pressed-nav {
   border-bottom: 2px solid #F0145A;
 }
 
+.header-tablet-small-var2 {
+  display: none;
+  padding: 60px 0 0 0;
+  margin-bottom: 64px;
+}
+.header-tablet-small-var2 .logo {
+  margin-bottom: 15px;
+}
+.header-tablet-small-var2 a {
+  display: inline-block;
+}
+.header-tablet-small-var2 ul {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  color: #b3b3ba;
+}
+.header-tablet-small-var2 .contact-info {
+  padding-left: 22px;
+  margin-bottom: 15px;
+}
+.header-tablet-small-var2 .contact-info .language {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.header-tablet-small-var2 .contact-info .language .pressed {
+  background: #F0145A;
+  border-radius: 8px;
+  pointer-events: none;
+  cursor: default;
+  color: white;
+  pointer-events: none;
+}
+.header-tablet-small-var2 .contact-info .language a {
+  text-decoration: none;
+  margin-right: 2px;
+  padding: 5px 6px;
+  color: #b3b3ba;
+}
+.header-tablet-small-var2 .contact-info .language a:hover {
+  background: #F0145A;
+  border-radius: 8px;
+  color: white;
+}
+.header-tablet-small-var2 .contact-info .address {
+  font-size: 16px;
+  line-height: 19px;
+}
+.header-tablet-small-var2 .contact-info .number {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header-tablet-small-var2 .contact-info .facebook-logo img:hover path {
+  fill: red;
+}
+.header-tablet-small-var2 .nav-header a {
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  text-decoration: none;
+  border: 2px solid none;
+}
+.header-tablet-small-var2 .nav-header a:hover {
+  border-bottom: 2px solid #F0145A;
+}
+.header-tablet-small-var2 li {
+  padding-right: 16px;
+}
+.header-tablet-small-var2 li .pressed-nav {
+  color: #F0145A;
+  pointer-events: none;
+  border-bottom: 2px solid #F0145A;
+}
+
+.header-tablet-small {
+  display: none;
+}
+.header-tablet-small .logo button {
+  display: none;
+}
+
+.offcanvas-header-mobile .offcanvas-header {
+  display: flex;
+  justify-content: flex-end;
+}
+.offcanvas-header-mobile .offcanvas-header .btn-close {
+  background: url(./../images/header/Close.svg);
+}
+.offcanvas-header-mobile .offcanvas-body {
+  text-align: center;
+}
+.offcanvas-header-mobile .offcanvas-body a {
+  background: #F5F5FA;
+  border-radius: 12px;
+  padding: 8px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #24A3FF;
+  text-decoration: none;
+}
+.offcanvas-header-mobile .offcanvas-body a:hover {
+  color: #F0145A;
+}
+.offcanvas-header-mobile .offcanvas-body a:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 20000px) {
+  .header-tablet-small-var2 .logo button {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .header-tablet-small-var2 .logo button {
+    display: none;
+  }
+
+  .header-tablet-small .logo {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .header-tablet-small-var2 .logo button {
+    display: none;
+  }
+
+  .header-var2 {
+    position: relative;
+  }
+  .header-var2 .container {
+    max-width: 100%;
+    padding: 0 20px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .header-var2 .contact-info {
+    top: 30px;
+    position: absolute;
+  }
+  .header-var2 .right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .header-var2 .right-nav .nav-header li {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .header-var2 {
+    display: none;
+  }
+
+  .header-tablet-small-var2 {
+    display: block;
+  }
+  .header-tablet-small-var2 .logo button {
+    display: none;
+  }
+
+  .header-main-page {
+    display: none;
+  }
+
+  .header-tablet-small {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .header-tablet-small-var2 .contact-info {
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header-tablet-small-var2 .contact-info .address {
+    display: none;
+  }
+  .header-tablet-small-var2 .contact-info .facebook-logo {
+    display: none;
+  }
+  .header-tablet-small-var2 .contact-info .number {
+    padding-right: 0;
+  }
+  .header-tablet-small-var2 .logo a {
+    width: 224px;
+  }
+  .header-tablet-small-var2 .logo a img {
+    width: 100%;
+  }
+  .header-tablet-small-var2 .logo .humburger {
+    display: inline-block;
+  }
+  .header-tablet-small-var2 .nav-header {
+    display: none;
+  }
+
+  .header-tablet-small .logo button {
+    display: inline-block;
+  }
+  .header-tablet-small .contact-info .address {
+    display: none;
+  }
+  .header-tablet-small .contact-info .facebook-logo {
+    display: none;
+  }
+  .header-tablet-small .nav-header {
+    display: none;
+  }
+}
 .experience_services {
   margin-bottom: 40px;
 }
@@ -299,26 +525,26 @@ header li .pressed-nav {
   text-align: center;
   color: #FFFFFF;
 }
-.experience_services .banner .carousel {
+.experience_services .banner .experience {
   margin-bottom: 80px;
 }
-.experience_services .banner .carousel .btn:focus {
+.experience_services .banner .experience .btn:focus {
   box-shadow: none;
 }
-.experience_services .banner .carousel .card {
+.experience_services .banner .experience .card {
   background-color: transparent;
   border: 0;
   color: #FFFFFF;
   text-align: left;
 }
-.experience_services .banner .carousel .collapsing {
+.experience_services .banner .experience .collapsing {
   -webkit-transition: none;
   transition: none;
 }
-.experience_services .banner .carousel .buttons {
+.experience_services .banner .experience .buttons {
   max-width: 527px;
 }
-.experience_services .banner .carousel .buttons button {
+.experience_services .banner .experience .buttons button {
   text-align: right;
   color: #B3B3BA;
   border-right: 4px solid #E6E6F0;
@@ -326,7 +552,7 @@ header li .pressed-nav {
   margin: 0;
   padding-right: 40px;
 }
-.experience_services .banner .carousel .buttons button:focus {
+.experience_services .banner .experience .buttons button:focus {
   border-right: 4px solid #F0145A;
 }
 .experience_services .banner .services .title {
@@ -357,7 +583,78 @@ header li .pressed-nav {
   color: #FFFFFF;
   margin-bottom: 0;
 }
+.experience_services .experience-mobile {
+  display: none;
+  margin-bottom: 40px;
+}
+.experience_services .experience-mobile h4 {
+  margin-bottom: 10px;
+}
+.experience_services .experience-mobile h3 {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.experience_services .experience-mobile p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.experience_services .experience-mobile .carousel-indicators {
+  position: relative;
+  margin-bottom: 0;
+}
+.experience_services .experience-mobile .carousel-indicators button {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-right: 14px;
+  background-color: #d3edff;
+}
+.experience_services .experience-mobile .carousel-indicators button:hover {
+  background-color: #7cc8ff;
+}
+.experience_services .experience-mobile .carousel-indicators button:focus {
+  background-color: #24a3ff;
+}
+.experience_services .experience-mobile .carousel-indicators button:active {
+  background-color: #238edb;
+}
 
+@media (max-width: 1000px) {
+  .experience-mobile {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .banner .experience .card .text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .banner .experience .buttons button {
+    padding-right: 20px !important;
+    font-weight: bold !important;
+    font-size: 32px !important;
+    line-height: 38px !important;
+  }
+  .banner .experience-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .banner .experience {
+    display: none;
+  }
+  .banner .experience-mobile {
+    display: block;
+  }
+
+  .services .title .text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
 .team-card-preview {
   margin-bottom: 42px;
 }
@@ -398,6 +695,81 @@ header li .pressed-nav {
   color: #B3B3BA;
 }
 
+.team-card-preview-mobile {
+  margin-bottom: 42px;
+  display: none;
+}
+.team-card-preview-mobile .carousel-indicators {
+  position: relative;
+  margin-bottom: 0;
+}
+.team-card-preview-mobile .carousel-indicators button {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-right: 14px;
+  background-color: #d3edff;
+}
+.team-card-preview-mobile .carousel-indicators button:hover {
+  background-color: #7cc8ff;
+}
+.team-card-preview-mobile .carousel-indicators button:focus {
+  background-color: #24a3ff;
+}
+.team-card-preview-mobile .carousel-indicators button:active {
+  background-color: #238edb;
+}
+.team-card-preview-mobile .carousel-item .card-body {
+  padding: 40px 0 16px 16px;
+}
+.team-card-preview-mobile .carousel-item a {
+  text-decoration: none;
+}
+.team-card-preview-mobile .carousel-item .card-title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.team-card-preview-mobile .carousel-item .card-text {
+  color: #B3B3BA;
+  margin-bottom: 5px;
+}
+.team-card-preview-mobile .carousel-item small {
+  color: #B3B3BA;
+}
+.team-card-preview-mobile .carousel-item .user-card .user-photo {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.team-card-preview-mobile .carousel-item .user-card .user-photo img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+@media (max-width: 1000px) {
+  .team-card-preview-mobile {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .team-card-preview-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .team-card-preview-mobile {
+    display: block;
+  }
+
+  .team-card-preview {
+    display: none;
+  }
+}
 .successful-cases {
   padding-bottom: 30px;
 }
@@ -448,6 +820,9 @@ header li .pressed-nav {
   color: #323264;
   margin-bottom: 30px;
   text-align: center;
+}
+.partners .partners__cards {
+  width: 100%;
 }
 .partners .partners__cards .partners__card {
   padding: 0;
@@ -500,6 +875,12 @@ header li .pressed-nav {
 .posts .title a:active {
   color: #006CCF;
 }
+.posts .posts__cards {
+  margin: 0 auto;
+}
+.posts .posts__cards .wrapper-card {
+  padding: 0 5px;
+}
 .posts .posts__cards .wrapper-card .card {
   margin: 0 0 40px 0;
   border-radius: 8px;
@@ -537,6 +918,17 @@ header li .pressed-nav {
   margin: 0 0 20px 0;
 }
 
+@media (max-width: 576px) {
+  .posts .container {
+    padding: 40px 5px 0;
+  }
+  .posts .posts__cards .wrapper-card .card .card-body .post__text {
+    display: none;
+  }
+  .posts .posts__cards .wrapper-card .card .card-body hr {
+    display: none;
+  }
+}
 .about {
   padding-bottom: 96px;
 }
@@ -570,6 +962,13 @@ header li .pressed-nav {
 }
 .about .more-text .text {
   color: #000000;
+}
+@media (max-width: 767px) {
+  .about .advantages {
+    border-left: none !important;
+    border-top: 4px solid #E6E6F0;
+    padding-top: 15px;
+  }
 }
 .achievements {
   background: #F5F5FA;
@@ -1039,6 +1438,26 @@ footer .copyright {
   line-height: 19px;
   text-align: right;
   color: #B3B3BA;
+}
+
+@media (max-width: 767px) {
+  footer .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  footer .nav ul li::after {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
