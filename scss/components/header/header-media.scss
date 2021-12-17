@@ -28,9 +28,6 @@
 
 @media (max-width:$lg) {
     .header-tablet-small-var2 {
-
-        
-
         .logo {
             button {
                 display: none;
@@ -38,8 +35,10 @@
         }
     }
 
-    .header-var2 {
+    header {
+
         position: relative;
+
         .container {
             max-width: 100%;
             padding: 0 20px;
@@ -47,16 +46,49 @@
             margin-right: 0;
             margin-left: 0;
         }
+
         .contact-info {
             top: 30px;
             position: absolute;
         }
-        .right-nav{
+
+        .right-nav {
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
-            .nav-header{
-                li{
+
+            .nav-header {
+                li {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+    }
+
+    .header-var2 {
+        position: relative;
+
+        .container {
+            max-width: 100%;
+            padding: 0 20px;
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .contact-info {
+            top: 30px;
+            position: absolute;
+        }
+
+        .right-nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            .nav-header {
+                li {
                     padding-right: 10px;
                 }
             }
@@ -90,6 +122,17 @@
 }
 
 @media (max-width:$sm) {
+    .header-tablet-small{
+        .logo {
+            a {
+                width: 224px;
+
+                img {
+                    width: 100%;
+                }
+            }
+    }
+}
     .header-tablet-small-var2 {
         .contact-info {
             padding: 0 10px;

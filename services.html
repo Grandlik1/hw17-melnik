@@ -11,89 +11,118 @@
 <body>
     <div class="experience_services">
         <div class="background">
-        <header>
-          <div class="container">
-            <div class="header-content row justify-content-between">
-              <div class="logo col ">
-                <a href="./index.html"><img src="./images/header/logo-services.svg" alt="logo"></a>
-              </div>
-                <div class="right-nav col">
-                  <ul class="contact-info d-flex align-items-center justify-content-end">
-                    <li class="language">
-                      <a class="pressed" href="#">УК</a>
-                        <a href="#">РУ</a>
-                        <a href="#">EN</a>
-                    </li>
-                    <li class="address">
-                      Одеса, Адміральський пр., 3
-                    </li>
-                    <li class="number">+38 (050) 390 15 91</li>
-                    <li class="facebook-logo p-0"><a  href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img class="img-svg" src="./images/header/facebook.svg" alt="facebook_logo"></a></li>
-                  </ul>
-                  <ul class="nav-header d-flex justify-content-end">
-                    <li><a href="./about.html">про нас</a></li>
-                    <li><a class="pressed-nav" href="./services.html">послуги</a></li>
-                    <li><a href="./team.html">команда</a></li>
-                    <li><a href="./publications.html">публікації</a></li>
-                    <li class="p-0"><a href="./contact.html">контакти</a></li>               
-                  </ul>
+          <header class="header-main-page">
+            <div class="container">
+              <div class="header-content row justify-content-between">
+                <div class="logo col-xl-6 col-lg-4  col-md-4 col-sm-12 p-0">
+                    <a href="#"><img src="./images/header/logo-services.svg" alt="logo"></a>
                 </div>
-              </div>
-          </div>
-        </header>
+                  <div class="right-nav col-xl-6  col-lg-8  col-md-8 col-sm-12 p-0 " >
+                    <ul class="contact-info d-flex align-items-center justify-content-end">
+                        <li class="language">
+                          <a class="pressed" href="#">УК</a>
+                          <a href="#">РУ</a>
+                          <a href="#">EN</a>
+                        </li>
+                        <li class="address">
+                          Одеса, Адміральський пр., 3
+                        </li>
+                        <li class="number">+38 (050) 390 15 91</li>
+                        <li class="facebook-logo"><a  href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img class="img-svg" src="./images/header/facebook.svg" alt="facebook_logo"></a></li>
+                    </ul>
+                    <ul class="nav-header justify-content-end">
+                        <li><a href="./about.html">про нас</a></li>
+                        <li><a class="pressed-nav" href="./services.html">послуги</a></li>
+                        <li><a href="./team.html">команда</a></li>
+                        <li><a href="./publications.html">публікації</a></li>
+                        <li><a href="./contact.html">контакти</a></li>               
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </header>
+          <header class="header-tablet-small">
+            <div class="container">
+              <div class="header-content row justify-content-between">
+                    <ul class="contact-info d-flex align-items-center justify-content-between justify-content-sm-start  p-0">
+                        <li class="language">
+                          <a class="pressed" href="#">УК</a>
+                          <a href="#">РУ</a>
+                          <a href="#">EN</a>
+                        </li>
+                        <li class="address">
+                          Одеса, Адміральський пр., 3
+                        </li>
+                        <li class="number">+38 (050) 390 15 91</li>
+                        <li class="facebook-logo"><a  href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img class="img-svg" src="./images/header/facebook.svg" alt="facebook_logo"></a></li>
+                    </ul>
+                    <div class="logo  d-flex justify-content-between align-items-center">
+                        <a href="#"><img src="./images/header/logo-services.svg" alt="logo"></a>
+                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><img class="humburger" src="./images/header/hamburger-white.svg" alt="hamburger"></button>
+                    </div>
+                    <ul class="nav-header justify-content-start ">
+                        <li><a href="./about.html">про нас</a></li>
+                        <li><a href="./services.html">послуги</a></li>
+                        <li><a href="./team.html">команда</a></li>
+                        <li><a href="./publications.html">публікації</a></li>
+                        <li><a href="./contact.html">контакти</a></li>               
+                    </ul>
+                </div>
+            </div>
+          </header>
     <main>
         <div class="banner text-center">
             <div class="container">
                 <div class="banner__content">
-                    <div class="services row">
-                        <div class="title text-start"> 
-                          <p class="text">Що ми вміємо робити краще за інших?</p>
-                        </div>
-                      <div class="services__cards row">
-                        <div class="services__card col-4 text-start">
-                          <div class="picture">
-                            <img src="./images/baner/iconfinder_shopping-purse.svg" alt="icon">
-                          </div>
-                          <a href="./service-page.html" class="card__title">IT та електронна комерція</a>
-                          <p class="card__text">Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста.</p>
-                        </div>
-                        <div class="services__card col-4 text-start">
-                          <div class="picture">
-                            <img src="./images/baner/iconfinder_briefcase.svg" alt="icon">
-                          </div>
-                          <a href="./service-page.html" class="card__title">Комплексний щоденний юридичний супровід</a>
-                          <p class="card__text">До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.</p>
-                        </div>
-                        <div class="services__card col-4 text-start">
-                          <div class="picture">
-                            <img src="./images/baner/iconfinder_crowdfunding.svg" alt="icon">
-                          </div>
-                          <a href="./service-page.html" class="card__title">Структуризація корпоративних відносин</a>
-                          <p class="card__text">Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої компанії.</p>
-                        </div>
-                        <div class="services__card col-4 text-start">
-                          <div class="picture">
-                            <img src="./images/baner/iconfinder_collaborative.svg" alt="icon">
-                          </div>
-                          <a href="./service-page.html" class="card__title">Побудовa договірних відносин</a>
-                          <p class="card__text">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи замість очікування статусу update.</p>
-                        </div>
-                        <div class="services__card col-4 text-start">
-                          <div class="picture">
-                            <img src="./images/baner/iconfinder_safety.svg" alt="icon">
-                          </div>
-                          <a href="./service-page.html" class="card__title">Захист бізнесу, інтелектуальної власності</a>
-                          <p class="card__text">А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.</p>
-                        </div>
-                        <div class="services__card col-4 text-start">
-                          <div class="picture">
-                            <img src="./images/baner/iconfinder_Lawyer.svg" alt="icon">
-                          </div>
-                          <a href="./service-page.html" class="card__title">Судове представництво</a>
-                          <p class="card__text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?</p>
-                        </div>
-                      </div>
+                  <div class="services row">
+                    <div class="title text-start"> 
+                      <p class="text">Що ми вміємо робити краще за інших?</p>
                     </div>
+                  <div class="services__cards row">
+                    <div class="services__card col-xl-4 col-lg-6 col-md-6 col-sm-12 text-start">
+                      <div class="picture">
+                        <img src="./images/baner/iconfinder_shopping-purse.svg" alt="icon">
+                      </div>
+                      <a href="./service-page.html" class="card__title">IT та електронна комерція</a>
+                      <p class="card__text">Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста.</p>
+                    </div>
+                    <div class="services__card col-xl-4 col-lg-6 col-md-6 col-sm-12 text-start">
+                      <div class="picture">
+                        <img src="./images/baner/iconfinder_briefcase.svg" alt="icon">
+                      </div>
+                      <a href="./service-page.html" class="card__title">Комплексний щоденний юридичний супровід</a>
+                      <p class="card__text">До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.</p>
+                    </div>
+                    <div class="services__card col-xl-4 col-lg-6 col-md-6 col-sm-12 text-start">
+                      <div class="picture">
+                        <img src="./images/baner/iconfinder_crowdfunding.svg" alt="icon">
+                      </div>
+                      <a href="./service-page.html" class="card__title">Структуризація корпоративних відносин</a>
+                      <p class="card__text">Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої компанії.</p>
+                    </div>
+                    <div class="services__card col-xl-4 col-lg-6 col-md-6 col-sm-12 text-start">
+                      <div class="picture">
+                        <img src="./images/baner/iconfinder_collaborative.svg" alt="icon">
+                      </div>
+                      <a href="./service-page.html" class="card__title">Побудовa договірних відносин</a>
+                      <p class="card__text">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи замість очікування статусу update.</p>
+                    </div>
+                    <div class="services__card col-xl-4 col-lg-6 col-md-6 col-sm-12 text-start">
+                      <div class="picture">
+                        <img src="./images/baner/iconfinder_safety.svg" alt="icon">
+                      </div>
+                      <a href="./service-page.html" class="card__title">Захист бізнесу, інтелектуальної власності</a>
+                      <p class="card__text">А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.</p>
+                    </div>
+                    <div class="services__card col-xl-4 col-lg-6 col-md-6 col-sm-12 text-start">
+                      <div class="picture">
+                        <img src="./images/baner/iconfinder_Lawyer.svg" alt="icon">
+                      </div>
+                      <a href="./service-page.html" class="card__title">Судове представництво</a>
+                      <p class="card__text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?</p>
+                    </div>
+                  </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -106,78 +135,76 @@
       <div class="successful-cases">
         <div class="container">
           <div class="successful-cases__content row">
-            <div class="first-card col-4">
+            <div class="first-card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-12">
               <div class="title">Успішні кейси</div>
               <div class="case-card">
                 <div class="card-text">Супровід проекту з купівлі-продажу сільськогосподарської продукції</div>
                 <div class="company">Hillel IT School</div>
               </div>
             </div>
-            <div class="case-card col-4">
+            <div class="case-card col-12  col-xl-4 col-lg-4 col-md-6 col-sm-12">
               <div class="card-text">Підготовка комплексного юридичного висновку для європейського банку</div>
               <div class="company">WannaBiz</div>
             </div>
-            <div class="case-card col-4">
+            <div class="case-card col-12  col-xl-4 col-lg-4 col-md-6 col-sm-12">
               <div class="card-text  ">Супровід проекту з купівлі-продажу сільськогосподарської продукції</div>
               <div class="company">tapgerine</div>
             </div>
-            <div class="case-card col-3">
+            <div class="case-card col-12  col-xl-3 col-lg-3 col-md-6 col-sm-12">
               <div class="card-text">Представництво інтересів великого зернотрейдера в податковому спорі</div>
               <div class="company">3D LOOK</div>
             </div>
-            <div class="case-card col-4">
+            <div class="case-card col-12  col-xl-4 col-lg-4 col-md-6 col-sm-12">
               <div class="card-text">Оскарження податкових повідомлень-рішень ДФС</div>
               <div class="company">adtelligent</div>
             </div>
-            <div class="case-card col-5">
+            <div class="case-card col-12  col-xl-5 col-lg-5 col-md-6 col-sm-12">
               <div class="card-text">Супровід проекту з кредитування агротрейдерів мальтійським банком</div>
               <div class="company">Clikky</div>
             </div>
           </div>
-  
         </div>
-  
       </div>
       <div class="partners">
-        <div class="container">
+        <div class="container p-0">
         <div class="title">Вже довіряють нам</div>
-        <div class="partners__cards row">
-          <div class="partners__card col-3"><img src="./images/partner/hillel.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/wannaBiz.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/tapgerine.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/3d-look.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/orangear.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/adtelligent.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/clickky.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/eco.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/infratek.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/city-park.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/art-print.jpg" alt="logo"></div>
-          <div class="partners__card col-3"><img src="./images/partner/ultimate-card.jpg" alt="logo"></div>
+        <div class="partners__cards row d-flex m-auto">
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/hillel.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/wannaBiz.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/tapgerine.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/3d-look.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/orangear.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/adtelligent.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/clickky.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/eco.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/infratek.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/city-park.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/art-print.jpg" alt="logo"></div>
+          <div class="partners__card col-6 col-md-3 col-sm-6"><img src="./images/partner/ultimate-card.jpg" alt="logo"></div>
         </div>
       </div>
       </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer__content row">
-              <div class="col-6 nav">
-                <ul class="d-flex align-items-center">
-                  <li><span> Одеса, Адміральський пр., 3</span></li>
-                  <li><a class="map" href="https://goo.gl/maps/AUYzdjVwKTuCbPwL9" target="_blank">Подивитися на мапі</a></li>
-                </ul>
-                <ul class="d-flex align-items-center">
-                  <li><a href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img src="./images/logo/Facebook.svg" alt="logo"></a></li>
-                  <li ><span class="number">+38 (050) 390 15 91</span></li>
-                  <li><a class="contact" href="#">contact@hlegals.net</a></li>
-                </ul>
-              </div>
-              <div class="copyright col-6 d-flex justify-content-end " >
-                © 2021 ТОВ Юридична компанія «HLEGALS»
-              </div>
-            </div>
+      <div class="container">
+        <div class="footer__content row flex-xl-row flex-lg-row flex-md-row flex-sm-column  ">
+          <div class="col-md-7 col-sm-12 nav p-0 justify-content-md-start justify-content-sm-center">
+            <ul class="d-md-flex d-sm-flex align-items-center justify-content-md-start justify-content-sm-center text-center">
+              <li><span> Одеса, Адміральський пр., 3</span></li>
+              <li><a class="map" href="https://goo.gl/maps/AUYzdjVwKTuCbPwL9" target="_blank">Подивитися на мапі</a></li>
+            </ul>
+            <ul class="d-md-flex d-sm-flex align-items-center justify-content-md-start justify-content-sm-center text-center">
+              <li><a href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img src="./images/logo/Facebook.svg" alt="logo"></a></li>
+              <li ><span class="number">+38 (050) 390 15 91</span></li>
+              <li><a class="contact" href="#">contact@hlegals.net</a></li>
+            </ul>
+          </div>
+          <div class="copyright col-md-5 col-sm-12 p-0 d-md-flex d-sm-flex  justify-content-md-end justify-content-sm-center text-center text-md-end text-sm-center  " >
+            © 2021 ТОВ Юридична компанія «HLEGALS»
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
       <div class="offcanvas offcanvas-header-mobile offcanvas-bottom  h-75" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
         <div class="offcanvas-header">
           <button type="button" class="btn-close text-reset d-flex justify-content-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>

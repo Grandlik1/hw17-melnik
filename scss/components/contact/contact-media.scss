@@ -1,13 +1,25 @@
-@media (max-width:$xl) {
-  
-}
+@media (max-width:$xl) {}
 
 @media (max-width:$lg) {
- 
+    .contact-page {
+        .contact__content {
+            .contact__info {
+                padding-right: 90px;
+            }
+        }
+    }
 }
 
 @media (max-width:$md) {
- 
+    .contact-page {
+        .contact__content {
+            .contact__info {
+                padding: 0 10px;
+                margin-bottom: 40px;
+            }
+        }
+    }
 }
 
-@media (max-width:$sm) {}
+@media (max-width:$sm) {
+}

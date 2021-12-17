@@ -2,7 +2,7 @@
     padding-bottom: 80px;
 
     .contact__info {
-        margin-right: 150px;
+        padding-right: 150px;
 
         .address {
             margin-bottom: 40px;
@@ -73,7 +73,7 @@
         }
     }
 
-    .contact_form {
+    .contact__form {
         background: $grey-bg;
         border-radius: 12px;
         padding: 20px;
@@ -121,6 +121,7 @@
 
         .submit {
             @extend %button;
+           
             
         }
 

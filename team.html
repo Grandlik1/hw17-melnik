@@ -11,31 +11,62 @@
 <body>
     <header class="header-var2">
         <div class="container">
-              <div class="header-content row justify-content-between">
-            <div class="logo col ">
+          <div class="header-content row justify-content-between">
+            <div class="logo col-xl-6 col-lg-4  col-md-4 col-sm-12 p-0">
                 <a href="./index.html"><img src="./images/header/Logo-team.svg" alt="logo"></a>
             </div>
-                <div class="right-nav col">
+              <div class="right-nav col-xl-6  col-lg-8  col-md-8 col-sm-12 p-0 " >
                 <ul class="contact-info d-flex align-items-center justify-content-end">
                     <li class="language">
-                        <a class="pressed" href="#">УК</a>
-                        <a href="#">РУ</a>
-                        <a href="#">EN</a>
+                      <a class="pressed" href="#">УК</a>
+                      <a href="#">РУ</a>
+                      <a href="#">EN</a>
                     </li>
                     <li class="address">
-                        Одеса, Адміральський пр., 3
+                      Одеса, Адміральський пр., 3
                     </li>
                     <li class="number">+38 (050) 390 15 91</li>
                     <li class="facebook-logo p-0"><a  href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img class="img-svg" src="./images/header/facebook-gray.svg" alt="facebook_logo"></a></li>
                 </ul>
-                <ul class="nav-header d-flex justify-content-end">
+                <ul class="nav-header justify-content-end">
                     <li><a  href="./about.html">про нас</a></li>
                     <li><a href="./services.html">послуги</a></li>
                     <li><a class="pressed-nav" href="./team.html">команда</a></li>
                     <li><a href="./publications.html">публікації</a></li>
                     <li class="p-0"><a href="./contact.html">контакти</a></li>               
                 </ul>
+              </div>
+            </div>
+        </div>
+      </header>
+    <header class="header-tablet-small-var2">
+        <div class="container">
+            <div class="header-content row justify-content-between">
+                <ul class="contact-info d-flex align-items-center">
+                        <li class="language">
+                            <a class="pressed" href="#">УК</a>
+                            <a href="#">РУ</a>
+                            <a href="#">EN</a>
+                        </li>
+                        <li class="address">
+                            Одеса, Адміральський пр., 3
+                        </li>
+                        <li class="number">+38 (050) 390 15 91</li>
+                        <li class="facebook-logo">
+                            <a  href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img class="img-svg" src="./images/header/facebook-gray.svg" alt="facebook_logo"></a>
+                        </li>
+                </ul>
+                <div class="logo col d-flex justify-content-between align-items-center ">
+                    <a href="./index.html"><img src="./images/header/Logo-team.svg" alt="logo"></a>
+                    <button class="btn humburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><img src="./images/header/hamburger.svg" alt="hamburger"></button>
                 </div>
+                <ul class="nav-header">
+                    <li><a   href="./about.html">про нас</a></li>
+                    <li><a href="./services.html">послуги</a></li>
+                    <li><a class="pressed-nav" href="./team.html">команда</a></li>
+                    <li><a href="./publications.html">публікації</a></li>
+                    <li"><a href="./contact.html" >контакти</a></li>               
+                </ul>
             </div>
         </div>
     </header>
@@ -43,79 +74,90 @@
         <div class="team">
             <div class="container">
                 <div class="team__content ">
-                    <div class="title col-8">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</div>
-                    <div class="team__cards row justify-content-between">
-                        <div class="team__card col-4">
-                            <div class="team__photo">
-                                <img src="./images/user-photo/photo-5.png" alt="">
-                            </div>
-                            <div class="text d-flex justify-content-between">
-                                <div class="info">
-                                    <div class="name">Олександр Олександровський</div>
-                                    <div class="position">Керуючий партнер</div>
+                    <div class="title col-12 col-xl-9 col-lg-9 col-md-12 col-sm-12">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</div>
+                    <div class="team__cards row justify-content-center justify-content-md-between">
+                        <div class="team__card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                <div class="team__photo col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12" >
+                                    <img src="./images/user-photo/photo-5.png" alt="user-photo">
                                 </div>
-                                <div class="button"><a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a></div>
-
-                            </div>
+                                <div class="text col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column flex-md-row  flex-sm-row ">
+                                    <div class="info col-12 col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                                        <div class="name">Денис Майборода</div>
+                                        <div class="position">Керуючий партнер</div>
+                                    </div>
+                                    <div class="button col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-start justify-content-md-end justify-content-sm-end">
+                                        <a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a>
+                                    </div>
+                                </div>
                         </div>
-                        <div class="team__card col-4">
-                            <div class="team__photo">
-                                <img src="./images/user-photo/photo-6.png" alt="">
+                        <div class="team__card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="team__photo col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12" >
+                                <img src="./images/user-photo/photo-6.png" alt="user-photo">
                             </div>
-                            <div class="text d-flex justify-content-between">
-                                <div class="info">
-                                    <div class="name">Хотян Антонович</div>
+                            <div class="text col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column flex-md-row  flex-sm-row ">
+                                <div class="info col-12 col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                                    <div class="name">Тимошенко Денис</div>
                                     <div class="position">Equity partner, Attorney-at-law</div>
                                 </div>
-                                <div class="button"><a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a></div>
-
+                                <div class="button col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-start justify-content-md-end justify-content-sm-end">
+                                    <a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a>
+                                </div>
                             </div>
-                        </div> <div class="team__card col-4">
-                            <div class="team__photo">
-                                <img src="./images/user-photo/photo.png" alt="">
+                        </div>
+                        <div class="team__card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="team__photo col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12" >
+                                <img src="./images/user-photo/photo.png" alt="user-photo">
                             </div>
-                            <div class="text d-flex justify-content-between">
-                                <div class="info">
+                            <div class="text col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column flex-md-row  flex-sm-row ">
+                                <div class="info col-12 col-xl-8 col-lg-8 col-md-8 col-sm-8">
                                     <div class="name">Владислав Мельник</div>
                                     <div class="position">Associate</div>
                                 </div>
-                                <div class="button"><a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a></div>
-
+                                <div class="button col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-start justify-content-md-end justify-content-sm-end">
+                                    <a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a>
+                                </div>
                             </div>
-                        </div> <div class="team__card col-4">
-                            <div class="team__photo">
-                                <img src="./images/user-photo/photo-3.png" alt="">
+                        </div>
+                        <div class="team__card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="team__photo col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12" >
+                                <img src="./images/user-photo/photo-3.png" alt="user-photo">
                             </div>
-                            <div class="text d-flex justify-content-between">
-                                <div class="info">
-                                    <div class="name">Августин Богуславович</div>
+                            <div class="text col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column flex-md-row  flex-sm-row ">
+                                <div class="info col-12 col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                                    <div class="name">Котов Евсей</div>
                                     <div class="position">Associate</div>
                                 </div>
-                                <div class="button"><a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a></div>
-
+                                <div class="button col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-start justify-content-md-end justify-content-sm-end">
+                                    <a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a>
+                                </div>
                             </div>
-                        </div> <div class="team__card col-4">
-                            <div class="team__photo">
-                                <img src="./images/user-photo/photo-2.png" alt="">
+                        </div>
+                        <div class="team__card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="team__photo col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12" >
+                                <img src="./images/user-photo/photo-2.png" alt="user-photo">
                             </div>
-                            <div class="text d-flex justify-content-between">
-                                <div class="info">
+                            <div class="text col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column flex-md-row  flex-sm-row ">
+                                <div class="info col-12 col-xl-8 col-lg-8 col-md-8 col-sm-8">
                                     <div class="name">Оксана Кобзар</div>
                                     <div class="position">Equity partner, Attorney-at-law</div>
                                 </div>
-                                <div class="button"><a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a></div>
-
+                                <div class="button col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-start justify-content-md-end justify-content-sm-end">
+                                    <a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a>
+                                </div>
                             </div>
-                        </div> <div class="team__card col-4">
-                            <div class="team__photo">
-                                <img src="./images/user-photo/photo-1.png" alt="">
+                        </div>
+                        <div class="team__card col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="team__photo col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12" >
+                                <img src="./images/user-photo/photo-1.png" alt="user-photo">
                             </div>
-                            <div class="text d-flex justify-content-between">
-                                <div class="info">
+                            <div class="text col-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex flex-column flex-md-row  flex-sm-row ">
+                                <div class="info col-12 col-xl-8 col-lg-8 col-md-8 col-sm-8">
                                     <div class="name">Юлія Гудименко</div>
                                     <div class="position">Associate, Attorney-at-law</div>
                                 </div>
-                                <div class="button"><a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a></div>
+                                <div class="button col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 d-flex justify-content-start justify-content-md-end justify-content-sm-end">
+                                    <a href="./team-member-page.html"><img src="./images/arrow/Open.svg" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -125,24 +167,24 @@
     </main>
     <footer>
         <div class="container">
-            <div class="footer__content row">
-              <div class="col-6 nav">
-                <ul class="d-flex align-items-center">
-                  <li><span> Одеса, Адміральський пр., 3</span></li>
-                  <li><a class="map" href="https://goo.gl/maps/AUYzdjVwKTuCbPwL9" target="_blank">Подивитися на мапі</a></li>
-                </ul>
-                <ul class="d-flex align-items-center">
-                  <li><a href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img src="./images/logo/Facebook.svg" alt="logo"></a></li>
-                  <li ><span class="number">+38 (050) 390 15 91</span></li>
-                  <li><a class="contact" href="#">contact@hlegals.net</a></li>
-                </ul>
-              </div>
-              <div class="copyright col-6 d-flex justify-content-end " >
-                © 2021 ТОВ Юридична компанія «HLEGALS»
-              </div>
+          <div class="footer__content row flex-xl-row flex-lg-row flex-md-row flex-sm-column  ">
+            <div class="col-md-7 col-sm-12 nav p-0 justify-content-md-start justify-content-sm-center">
+              <ul class="d-md-flex d-sm-flex align-items-center justify-content-md-start justify-content-sm-center text-center">
+                <li><span> Одеса, Адміральський пр., 3</span></li>
+                <li><a class="map" href="https://goo.gl/maps/AUYzdjVwKTuCbPwL9" target="_blank">Подивитися на мапі</a></li>
+              </ul>
+              <ul class="d-md-flex d-sm-flex align-items-center justify-content-md-start justify-content-sm-center text-center">
+                <li><a href="https://www.facebook.com/nikitusya.nikitka" target="_blank"><img src="./images/logo/Facebook.svg" alt="logo"></a></li>
+                <li ><span class="number">+38 (050) 390 15 91</span></li>
+                <li><a class="contact" href="#">contact@hlegals.net</a></li>
+              </ul>
             </div>
+            <div class="copyright col-md-5 col-sm-12 p-0 d-md-flex d-sm-flex  justify-content-md-end justify-content-sm-center text-center text-md-end text-sm-center  " >
+              © 2021 ТОВ Юридична компанія «HLEGALS»
+            </div>
+          </div>
         </div>
-    </footer>
+      </footer>
     <div class="offcanvas offcanvas-header-mobile offcanvas-bottom  h-75" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
         <div class="offcanvas-header">
           <button type="button" class="btn-close text-reset d-flex justify-content-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>

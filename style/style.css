@@ -31,13 +31,13 @@
   font-style: normal;
   font-display: swap;
 }
-.publication .publication_content .post h2, .baner_services .background .content .service-info h2, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .introduction h3, .posts .title h3, .team-card-preview .carousel-item .card-title, .experience_services .banner .services .title .text, .experience_services .banner .experience .buttons button {
+.publication .publication_content .post h2, .baner_services .background .service__content .service-info h2, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .introduction h3, .posts .title h3, .team-card-preview .carousel-item .card-title, .experience_services .banner .services .title .text, .experience_services .banner .experience .buttons button {
   font-weight: bold;
   font-size: 42px;
   line-height: 50px;
 }
 
-.contact-pop-up .modal-content .modal-body h3, .contact-page .contact_form h3 {
+.contact-pop-up .modal-content .modal-body h3, .contact-page .contact__form h3 {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
@@ -55,13 +55,13 @@
   line-height: 26px;
 }
 
-.publication .publication_content .post h3, .baner_services .background .content .service-more-info h3, .successful-cases .successful-cases__content .case-card .card-text, .experience_services .banner .services .services__cards .services__card .card__title {
+.publication .publication_content .post h3, .baner_services .background .service__content .service-more-info h3, .successful-cases .successful-cases__content .case-card .card-text, .experience_services .banner .services .services__cards .services__card .card__title {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
 }
 
-.contact-pop-up .modal-content .modal-body label, .contact-page .contact_form label, .team-member .team-member__content .team-member__bio .bio h3, .achievements .title, .posts .title a, .partners .title, .successful-cases .successful-cases__content .title, .team-card-preview-mobile .carousel-item a, .team-card-preview .carousel-item a, .experience_services .experience-mobile h4, .experience_services .banner .services .title a {
+.contact-pop-up .modal-content .modal-body label, .contact-page .contact__form label, .team-member .team-member__content .team-member__bio .bio h3, .achievements .title, .posts .title a, .partners .title, .successful-cases .successful-cases__content .title, .team-card-preview-mobile .carousel-item a, .team-card-preview .carousel-item a, .experience_services .experience-mobile h4, .experience_services .banner .services .title a {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
@@ -75,7 +75,7 @@
   line-height: 21px;
 }
 
-.publication .publication_content .post p, .contact-pop-up .modal-content .modal-body textarea::placeholder, .contact-pop-up .modal-content .modal-body .text-form::placeholder, .contact-page .contact_form textarea::placeholder, .contact-page .contact_form .text-form::placeholder, .team-member .team-member__content .team-member__bio .bio p, .successful-cases .successful-cases__content .case-card .company, .experience_services .banner .services .services__cards .services__card .card__text {
+.publication .publication_content .post p, .contact-pop-up .modal-content .modal-body textarea::placeholder, .contact-pop-up .modal-content .modal-body .text-form::placeholder, .contact-page .contact__form textarea::placeholder, .contact-page .contact__form .text-form::placeholder, .team-member .team-member__content .team-member__bio .bio p, .successful-cases .successful-cases__content .case-card .company, .experience_services .banner .services .services__cards .services__card .card__text {
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
@@ -87,38 +87,39 @@
   line-height: 22px;
 }
 
-.baner_services .background .content .service-info p, .about .more-text .text, .about .about__content .introduction p, .experience_services .banner .experience .card .text {
+.baner_services .background .service__content .service-info p, .about .more-text .text, .about .about__content .introduction p, .experience_services .banner .experience .card .text {
   font-weight: normal;
   font-size: 21px;
   line-height: 30px;
 }
 
-.publication .publication_content .post h2, .contact-pop-up .modal-content .modal-body h3, .baner_services .background .content .service-info h2, .contact-page .contact_form h3, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .advantages .advantage .heading, .about .about__content .introduction h3, .posts .title h3, .team-card-preview-mobile .carousel-item .card-title, .team-card-preview .carousel-item .card-title, .experience_services .experience-mobile h4, .experience_services .banner .services .title .text, .experience_services .banner .experience .buttons button:active, .experience_services .banner .experience .buttons button:hover, .experience_services .banner .experience .buttons button:focus {
+.publication .publication_content .post h2, .contact-pop-up .modal-content .modal-body h3, .baner_services .background .service__content .service-info h2, .contact-page .contact__form h3, .team-member .team-member__content .team-member__bio .heading h2, .team .team__content .title, .about .more-text .title, .about .about__content .advantages .advantage .heading, .about .about__content .introduction h3, .posts .title h3, .team-card-preview-mobile .carousel-item .card-title, .team-card-preview .carousel-item .card-title, .experience_services .experience-mobile h4, .experience_services .banner .services .title .text, .experience_services .banner .experience .buttons button:active, .experience_services .banner .experience .buttons button:hover, .experience_services .banner .experience .buttons button:focus {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.contact-pop-up .modal-content .modal-body .submit, .baner_services .background .content .service-info button, .contact-page .contact_form .submit {
+.contact-pop-up .modal-content .modal-body .submit, .baner_services .background .service__content .service-info button, .contact-page .contact__form .submit {
   border: none;
   border-radius: 12px;
   font-size: 14px;
   line-height: 17px;
   color: white;
-  padding: 16px 78px;
+  padding: 16px 73px;
   background: #24A3FF;
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
 }
-.contact-pop-up .modal-content .modal-body .submit:hover, .baner_services .background .content .service-info button:hover, .contact-page .contact_form .submit:hover {
+.contact-pop-up .modal-content .modal-body .submit:hover, .baner_services .background .service__content .service-info button:hover, .contact-page .contact__form .submit:hover {
   background: #0085FF;
   box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5);
 }
-.contact-pop-up .modal-content .modal-body .submit:active, .baner_services .background .content .service-info button:active, .contact-page .contact_form .submit:active {
+.contact-pop-up .modal-content .modal-body .submit:active, .baner_services .background .service__content .service-info button:active, .contact-page .contact__form .submit:active {
   background: #006CCF;
 }
 
 body {
   font-family: "TT Norms", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -191,6 +192,11 @@ header .nav-header a {
   border: 2px solid none;
 }
 header .nav-header a:hover {
+  border-bottom: 2px solid #F0145A;
+}
+header .nav-header a .pressed-nav {
+  color: #F0145A;
+  pointer-events: none;
   border-bottom: 2px solid #F0145A;
 }
 header li:not(:last-child) {
@@ -408,6 +414,29 @@ header li .pressed-nav {
     display: none;
   }
 
+  header {
+    position: relative;
+  }
+  header .container {
+    max-width: 100%;
+    padding: 0 20px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  header .contact-info {
+    top: 30px;
+    position: absolute;
+  }
+  header .right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  header .right-nav .nav-header li {
+    padding-right: 10px;
+  }
+
   .header-var2 {
     position: relative;
   }
@@ -452,6 +481,13 @@ header li .pressed-nav {
   }
 }
 @media (max-width: 576px) {
+  .header-tablet-small .logo a {
+    width: 224px;
+  }
+  .header-tablet-small .logo a img {
+    width: 100%;
+  }
+
   .header-tablet-small-var2 .contact-info {
     padding: 0 10px;
     display: flex;
@@ -967,6 +1003,9 @@ header li .pressed-nav {
   color: #000000;
 }
 @media (max-width: 767px) {
+  .about {
+    padding-bottom: 20px;
+  }
   .about .advantages {
     border-left: none !important;
     border-top: 4px solid #E6E6F0;
@@ -981,13 +1020,37 @@ header li .pressed-nav {
   color: #323264;
   margin-bottom: 30px;
 }
+.achievements .achievement .carousel-indicators {
+  position: relative;
+  margin-bottom: 0;
+}
+.achievements .achievement .carousel-indicators button {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-right: 14px;
+  background-color: #d3edff;
+}
+.achievements .achievement .carousel-indicators button:hover {
+  background-color: #7cc8ff;
+}
+.achievements .achievement .carousel-indicators button:focus {
+  background-color: #24a3ff;
+}
+.achievements .achievement .carousel-indicators button:active {
+  background-color: #238edb;
+}
 .achievements .achievement .carousel-item {
   background: #F5F5FA;
 }
-.achievements .achievement .carousel-item img {
+.achievements .achievement .carousel-item .company {
+  padding-right: 20px;
+}
+.achievements .achievement .carousel-item .company img {
+  width: 100%;
   max-width: 300px;
 }
-.achievements .achievement .carousel-item img:not(:last-child) {
+.achievements .achievement .carousel-item .company img:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -996,6 +1059,7 @@ header li .pressed-nav {
 }
 .team .team__cards .team__card {
   margin-bottom: 40px;
+  max-width: 413px;
 }
 .team .team__cards .team__card .text .info .name {
   color: #323264;
@@ -1009,13 +1073,40 @@ header li .pressed-nav {
 }
 .team .team__cards .team__card .team__photo img {
   border-radius: 12px;
+  width: 100%;
 }
 
+@media (max-width: 576px) {
+  .team .team__content .title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .team .team__content .team__cards .team__card {
+    display: flex !important;
+    align-items: flex-end;
+  }
+  .team .team__content .team__cards .team__card .team__photo {
+    margin: 0;
+  }
+  .team .team__content .team__cards .team__card .text {
+    padding-left: 20px;
+  }
+  .team .team__content .team__cards .team__card .text .name {
+    margin-bottom: 5px;
+  }
+  .team .team__content .team__cards .team__card .text .position {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
 .team-member {
   padding-bottom: 80px;
 }
 .team-member .team-member__content .team-member__photo img {
   border-radius: 12px;
+  width: 100%;
 }
 .team-member .team-member__content .team-member__bio {
   padding-left: 20px;
@@ -1068,11 +1159,33 @@ header li .pressed-nav {
   color: #323264;
 }
 
+@media (max-width: 576px) {
+  .team-member .team-member__content .team-member__bio .heading .info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #E6E6F0;
+    margin-bottom: 40px;
+  }
+  .team-member .team-member__content .team-member__bio .heading .info span {
+    color: #B3B3BA;
+    margin: 0 0 10px 0;
+  }
+  .team-member .team-member__content .team-member__bio .heading .info span::after {
+    display: none;
+  }
+  .team-member .team-member__content .team-member__bio .heading .info a:not(:last-child) {
+    margin: 0 0 10px 0;
+  }
+  .team-member .team-member__content .team-member__bio .heading .info a::after {
+    display: none;
+  }
+}
 .contact-page {
   padding-bottom: 80px;
 }
 .contact-page .contact__info {
-  margin-right: 150px;
+  padding-right: 150px;
 }
 .contact-page .contact__info .address {
   margin-bottom: 40px;
@@ -1132,40 +1245,51 @@ header li .pressed-nav {
 .contact-page .contact__info .facebook a .text:active {
   color: #b91347;
 }
-.contact-page .contact_form {
+.contact-page .contact__form {
   background: #F5F5FA;
   border-radius: 12px;
   padding: 20px;
 }
-.contact-page .contact_form h3 {
+.contact-page .contact__form h3 {
   margin-bottom: 20px;
 }
-.contact-page .contact_form label {
+.contact-page .contact__form label {
   color: #B3B3BA;
   margin-bottom: 10px;
 }
-.contact-page .contact_form .text-form {
+.contact-page .contact__form .text-form {
   border-radius: 8px;
   border: 2px solid transparent;
 }
-.contact-page .contact_form .text-form:focus {
+.contact-page .contact__form .text-form:focus {
   box-shadow: none;
   border: 2px solid #F0145A;
 }
-.contact-page .contact_form .text-form::placeholder {
+.contact-page .contact__form .text-form::placeholder {
   color: #B3B3BA;
 }
-.contact-page .contact_form textarea {
+.contact-page .contact__form textarea {
   border-radius: 8px;
   resize: none;
   border: 2px solid transparent;
 }
-.contact-page .contact_form textarea:focus {
+.contact-page .contact__form textarea:focus {
   box-shadow: none;
   border: 2px solid #F0145A;
 }
-.contact-page .contact_form textarea::placeholder {
+.contact-page .contact__form textarea::placeholder {
   color: #B3B3BA;
+}
+@media (max-width: 992px) {
+  .contact-page .contact__content .contact__info {
+    padding-right: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-page .contact__content .contact__info {
+    padding: 0 10px;
+    margin-bottom: 40px;
+  }
 }
 .baner_services {
   margin-bottom: 40px;
@@ -1193,39 +1317,45 @@ header li .pressed-nav {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.baner_services .background .content .service-info {
+.baner_services .background .service__content .service-info {
   margin: 0 auto 80px;
 }
-.baner_services .background .content .service-info img {
+.baner_services .background .service__content .service-info img {
   margin-bottom: 20px;
 }
-.baner_services .background .content .service-info h2 {
+.baner_services .background .service__content .service-info h2 {
   margin-bottom: 20px;
 }
-.baner_services .background .content .service-info p {
+.baner_services .background .service__content .service-info p {
   color: #FFFFFF;
   margin-bottom: 40px;
 }
-.baner_services .background .content .service-more-info {
+.baner_services .background .service__content .service-more-info {
   border-top: 4px solid #9898b2;
   padding: 20px;
   margin: 0 auto 80px;
 }
-.baner_services .background .content .service-more-info h3 {
+.baner_services .background .service__content .service-more-info h3 {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
-.baner_services .background .content .service-more-info .service-list li {
+.baner_services .background .service__content .service-more-info .service-list li {
   color: #F0145A;
   margin-bottom: 20px;
 }
-.baner_services .background .content .service-more-info .service-list li span {
+.baner_services .background .service__content .service-more-info .service-list li span {
   max-width: 500px;
   font-size: 18px;
   line-height: 26px;
   color: #FFFFFF;
 }
 
+@media (max-width: 576px) {
+  .service__content .service-info h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
 .contact-pop-up .modal-content {
   background-color: #F5F5FA;
 }
@@ -1301,6 +1431,7 @@ header li .pressed-nav {
 .publication .publication_content .heading img {
   margin-bottom: 40px;
   padding: 0;
+  width: 100%;
 }
 .publication .publication_content .heading .text {
   padding: 0 20px;
@@ -1372,6 +1503,73 @@ header li .pressed-nav {
   margin-right: 10px;
 }
 
+@media (max-width: 576px) {
+  .publication .publication_content {
+    max-width: 909px;
+    margin: 0 auto;
+  }
+  .publication .publication_content .heading {
+    margin-bottom: 40px;
+  }
+  .publication .publication_content .heading img {
+    margin-bottom: 40px;
+    padding: 0;
+    width: 100%;
+  }
+  .publication .publication_content .heading .text {
+    padding: 0 20px;
+    border-bottom: 4px solid #EDEDF7;
+  }
+  .publication .publication_content .heading .text h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #323264;
+    margin-bottom: 10px;
+  }
+  .publication .publication_content .heading .text p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    margin-bottom: 40px;
+  }
+  .publication .publication_content .post {
+    padding: 0 0 60px 0;
+  }
+  .publication .publication_content .post p {
+    color: #000000;
+  }
+  .publication .publication_content .post h2 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+  }
+  .publication .publication_content .post h3 {
+    color: #46466E;
+    margin-bottom: 20px;
+  }
+  .publication .publication_content .post ol {
+    padding: 0 20px;
+  }
+  .publication .publication_content .post ol li {
+    color: #F0145A;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .publication .publication_content .post ol li span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: normal;
+  }
+  .publication .publication_content .post .share {
+    text-align: center;
+  }
+}
 footer {
   border-top: 4px solid #E6E6F0;
   padding: 30px 0 40px;

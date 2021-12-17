@@ -10,4 +10,43 @@
  
 }
 
-@media (max-width:$sm) {}
+@media (max-width:$sm) {
+    .team-member{
+        .team-member__content{
+            .team-member__bio{
+                .heading {
+                    h2 {
+                        @extend %hero;
+                        @extend %text-gradient;
+                    }
+    
+                    .info {
+                        display: flex;
+                        flex-direction: column;
+                        padding-bottom: 20px;
+                        border-bottom: 4px solid #E6E6F0;
+                        margin-bottom: 40px;
+    
+                        span {
+                            @extend %paragraph-min;
+                            color: $grey-text;
+                            margin: 0 0 10px 0;
+                            &::after {
+                                display: none;
+                            }
+                        }
+                       
+                        a {
+                            &:not(:last-child){
+                                margin: 0 0 10px 0;
+                            }
+                            &::after {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

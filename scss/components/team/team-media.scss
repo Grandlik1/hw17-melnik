@@ -1,13 +1,46 @@
-@media (max-width:$xl) {
-  
-}
+@media (max-width:$xl) {}
 
-@media (max-width:$lg) {
- 
-}
+@media (max-width:$lg) {}
 
-@media (max-width:$md) {
- 
-}
+@media (max-width:$md) {}
 
-@media (max-width:$sm) {}
+@media (max-width:$sm) {
+    .team {
+        .team__content {
+            .title {
+                margin: 0;
+                font-size: 32px;
+                line-height: 38px;
+
+            }
+
+            .team__cards {
+
+
+                .team__card {
+                    display: flex !important;
+                    align-items: flex-end;
+
+                    .team__photo {
+                        margin: 0;
+                    }
+
+                    .text {
+                        padding-left: 20px;
+
+                        .name {
+                            margin-bottom: 5px;
+
+                        }
+
+                        .position {
+                            margin-bottom: 15px;
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,13 +1,16 @@
-@media (max-width:$xl) {
-  
-}
+@media (max-width:$xl) {}
 
-@media (max-width:$lg) {
- 
-}
+@media (max-width:$lg) {}
 
-@media (max-width:$md) {
- 
-}
+@media (max-width:$md) {}
 
-@media (max-width:$sm) {}
+@media (max-width:$sm) {
+    .service__content {
+        .service-info {
+            h2 {
+                font-size: 32px;
+                line-height: 38px;
+            }
+        }
+    }
+}

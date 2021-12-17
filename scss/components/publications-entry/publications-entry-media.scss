@@ -1,13 +1,93 @@
-@media (max-width:$xl) {
-  
-}
+@media (max-width:$xl) {}
 
-@media (max-width:$lg) {
- 
-}
+@media (max-width:$lg) {}
 
-@media (max-width:$md) {
- 
-}
+@media (max-width:$md) {}
 
-@media (max-width:$sm) {}
+@media (max-width:$sm) {
+    .publication {
+        .publication_content {
+            max-width: 909px;
+            margin: 0 auto;
+
+            .heading {
+                margin-bottom: 40px;
+
+                img {
+                    margin-bottom: 40px;
+                    padding: 0;
+                    width: 100%;
+                }
+
+                .text {
+                    padding: 0 20px;
+                    border-bottom: 4px solid #EDEDF7;
+
+                    h2 {
+                        font-size: 22px;
+                        line-height: 26px;
+                        color: $main-regular;
+                        margin-bottom: 10px
+                    }
+
+                    p {
+                        font-weight: bold;
+                        font-size: 12px;
+                        line-height: 14px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: $grey-text;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+
+            .post {
+                padding: 0 0 60px 0;
+
+                p {
+                    @extend %paragraph;
+                    color: #000000;
+                }
+
+                h2 {
+                    font-size: 32px;
+                    line-height: 38px;
+                    @extend %text-gradient;
+                    margin-bottom: 40px;
+                }
+
+                h3 {
+                    @extend %h3;
+                    color: $main-alt;
+                    margin-bottom: 20px;
+                }
+
+                ol {
+                    padding: 0 20px;
+
+                    li {
+                        color: $accent;
+                        font-size: 18px;
+                        line-height: 26px;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+
+                        span {
+                            font-size: 18px;
+                            line-height: 26px;
+                            color: $black;
+                            font-weight: normal;
+                        }
+                    }
+                }
+
+
+
+                .share {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

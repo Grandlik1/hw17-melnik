@@ -9,6 +9,7 @@
     .team__cards {
         .team__card {
             margin-bottom: 40px;
+            max-width: 413px;
 
             .text {
                 .info {
@@ -27,6 +28,7 @@
             .team__photo {
                 img {
                     border-radius: 12px;
+                    width: 100%;
                 }
                 margin-bottom: 20px;
             }

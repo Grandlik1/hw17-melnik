@@ -8,15 +8,44 @@
         margin-bottom: 30px;
     }
     .achievement {
-        .carousel-item {
-            background: $grey-bg;
-            img {
-                max-width: 300px;
-                &:not(:last-child) {
-                    margin-right: 40px;
+        .carousel-indicators {
+            position: relative;
+            margin-bottom: 0;
+
+            button {
+                border-radius: 50%;
+                width: 16px;
+                height: 16px;
+                margin-right: 14px;
+                background-color: #d3edff;
+
+                &:hover {
+                    background-color: #7cc8ff;
                 }
 
+                &:focus {
+                    background-color: #24a3ff;
+                }
+
+                &:active {
+                    background-color: #238edb;
+                }
             }
+        }
+        .carousel-item {
+            background: $grey-bg;
+            .company{
+                padding-right: 20px;
+                img {
+                    width: 100%;
+                    max-width: 300px;
+                    &:not(:last-child) {
+                        margin-right: 40px;
+                    }
+    
+                }
+            }
+            
         }
     }
 }
