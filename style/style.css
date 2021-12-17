@@ -145,6 +145,9 @@ header ul {
   list-style: none;
   color: white;
 }
+header .right-nav {
+  padding: 0;
+}
 header .contact-info .language {
   font-weight: bold;
   font-size: 12px;
