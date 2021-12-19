@@ -467,6 +467,7 @@ header li .pressed-nav {
 
   .header-tablet-small-var2 {
     display: block;
+    margin-bottom: 20px;
   }
   .header-tablet-small-var2 .logo button {
     display: none;
@@ -1078,7 +1079,7 @@ header li .pressed-nav {
 
 @media (max-width: 576px) {
   .team .team__content .title {
-    margin: 0;
+    margin-bottom: 40px;
     font-size: 32px;
     line-height: 38px;
   }
